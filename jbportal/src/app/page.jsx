@@ -1,113 +1,152 @@
 import Image from "next/image";
+import Menu from "../components/Menu";
+import Footer from "../components/Footer";
+
+
+const images = [
+  'images/slide2.png',
+  'images/slide1.png',
+];
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+    <div>
+      <Menu />
+
+      <main>
+        <div className="text-center w-full h-screen overflow-hidden flex justify-center items-center">
+          <div className="absolute inset-0 w-full h-full z-[-1] flex">
+            <div
+              className="absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 opacity-100"
+              style={{ backgroundImage: "url('slide2.png')" }}
+            > 
+            </div>
+          </div>
+
+          <div>
+            <div className="flex flex-wrap font-roboto justify-center gap-2 grid grid-cols-4 ">
+              <button
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="cidadao"
+              >
+                CIDADÃO
+              </button>
+
+              <button
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="empresa"
+              >
+                EMPRESA
+              </button>
+
+              <button
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="servidor"
+              >
+                SERVIDOR
+              </button>
+
+              <button
+                className="bg-[#003476] text-white py-4 px-8 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="turista"
+              >
+                TURISTA
+              </button>
+            </div>
+
+
+
+            <div className="flex flex-wrap font-roboto justify-center gap-4">
+              <button
+                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="portal"
+              >
+                PORTAL DA TRANSPARÊNCIA
+              </button>
+
+              <button
+                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="carta"
+              >
+                CARTA DE SERVIÇOS
+              </button>
+
+              <button
+                className="bg-[#003476] text-white py-4 px-20 my-6 text-xl cursor-pointer border-2 border-white rounded-full transition-transform duration-300 hover:border-[#009EE2] hover:animate-buzz focus:outline-none"
+                id="ppp"
+              >
+                PPP - SAÚDE
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="mapas border-t border-[#FFC719] bg-[#003470]">
+          <h1 className="text-white font-montserrat font-semibold text-4xl flex justify-center p-20">
+            MAPAS
+          </h1>
+          <div className="relative overflow-hidden my-8">
+            <svg className="absolute inset-0 w-full h-24" viewBox="0 0 1440 320" fill="#003470">
+              <path d="M0,64L30,101.3C60,139,120,213,180,229.3C240,245,300,203,360,186.7C420,171,480,181,540,197.3C600,213,660,235,720,229.3C780,224,840,192,900,165.3C960,139,1020,117,1080,96C1140,75,1200,53,1260,80C1320,107,1380,181,1410,213.3L1440,256V0H1410C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div className="mapas-cartaz mt-40 mb-40 flex items-center justify-center">
+          <a href="https://example.com/mapescola" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
+            <div
+              className=" h-[410px] bg-cover bg-center"
+              style={{ backgroundImage: "url('images/mapescola.jpg')" }}
+            ></div>
+            <div className="absolute inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
+              MAPA ESCOLA
+            </div>
+          </a>
+
+          <a href="https://example.com/mapsaude" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
+            <div
+              className=" h-[410px] bg-cover bg-center"
+              style={{ backgroundImage: "url('images/mapsaude.jpg')" }}
+            ></div>
+            <div className="absolute inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
+              MAPA SAÚDE
+            </div>
+          </a>
+
+          <a href="https://example.com/maprestaurante" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
+            <div
+              className=" h-[410px] bg-cover bg-center"
+              style={{ backgroundImage: "url('images/maprestaurante.jpg')" }}
+            ></div>
+            <div className="absolute inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
+              MAPA RESTAURANTE
+            </div>
+          </a>
+
+          <a href="https://example.com/mapmercado" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
+            <div
+              className=" h-[410px] bg-cover bg-center"
+              style={{ backgroundImage: "url('images/mapmercado.jpg')" }}
+            ></div>
+            <div className="absolute inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
+              MAPA MERCADO
+            </div>
+          </a>
+
+          <a href="https://example.com/mapcras" className="relative flex-1 transition-transform duration-500 hover:rotate-y-180">
+            <div
+              className=" h-[410px] bg-cover bg-center"
+              style={{ backgroundImage: "url('images/mapcras.jpg')" }}
+            ></div>
+            <div className="absolute inset-0 h-[410px] flex items-center justify-center bg-[#003470] text-white text-xl font-bold opacity-0 transition-opacity duration-500 hover:opacity-100">
+              MAPA CRAS
+            </div>
           </a>
         </div>
-      </div>
+      </main>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <Footer/>
+    </div>
   );
 }
