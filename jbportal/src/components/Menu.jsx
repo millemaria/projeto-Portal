@@ -12,7 +12,7 @@ const menu = () => {
             />
           </div>
 
-          <div className="top-menu fixed top-0 w-full z-1000 bg-[#003470] p-1.5 flex justify-between">
+          <div className="top-menu fixed top-0 w-full z-[1] bg-[#003470] p-1.5 flex justify-between">
             <div className="icones ml-10 flex gap-5">
               <i className="ri-twitter-x-line text-white text-[17px]"></i>
               <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
@@ -76,6 +76,14 @@ const menu = () => {
                   Teclas de Atalho
                 </a>
               </li>
+              <li className="nav-topo">
+                <a
+                  href="#"
+                  className="nav-link text-white text-[12px] hover:underline"
+                >
+                  Radar da Transparência
+                </a>
+              </li>
               <li>
                 <a href="#" className="icone-amarelo">
                   <Image
@@ -90,47 +98,24 @@ const menu = () => {
           </div>
 
           <div className="menus">
-            <div className="navbar fixed top-[38px] w-full z-999 bg-[#1E4B7C] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
+            <div className="navbar fixed border-t-2 top-[38px] w-full z-[1] bg-[#152e5a94] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
               <a href="#" className="logo pl-7">
                 <Image
                   src="/images/logo.png"
                   alt="Logo do Menu"
                   width={749}
-                  height={200}
+                  height={190}
                   className="w-[210px] h-auto"
+                  opacity-30 
                 />
               </a>
-              <ul className="nav-menu list-none flex pr-6 md:flex text-[#224276] font-open-sans text-[14px]">
+              <ul className="nav-menu list-none flex pr-6 md:flex text-[#f3f4f5] font-open-sans text-[14px]" >
                 <li className="nav-item">
                   <a
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
-                    INSTITUCIONAL
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
-                  >
-                    A CIDADE
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
-                  >
-                    SECRETARIAS
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
-                  >
-                    ÓRGÃOS
+                    ESTRUTURA ORGANIZACIONAL
                   </a>
                 </li>
                 <li className="nav-item">
@@ -146,7 +131,7 @@ const menu = () => {
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
-                    ACESSIBILIDADE
+                   A LAI
                   </a>
                 </li>
                 <li className="nav-item">
@@ -154,6 +139,31 @@ const menu = () => {
                     href="#"
                     className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
                   >
+                    LGPD
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="#"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                  >
+                    LEI 14.129/2021
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="#"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                  >
+                    FAQ
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="#"
+                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                  > 
+                  FALE CONOSCO
                     <i className="ri-search-line"></i>
                   </a>
                 </li>
