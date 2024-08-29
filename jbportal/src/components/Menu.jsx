@@ -113,7 +113,7 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                     ESTRUTURA ORGANIZACIONAL
                   </a>
@@ -121,7 +121,7 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                     SERVIÇOS
                   </a>
@@ -129,7 +129,7 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                    A LAI
                   </a>
@@ -137,7 +137,7 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                     LGPD
                   </a>
@@ -145,7 +145,7 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                     LEI 14.129/2021
                   </a>
@@ -153,7 +153,7 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                     FAQ
                   </a>
@@ -161,11 +161,12 @@ const menu = () => {
                 <li className="nav-item">
                   <a
                     href="#"
-                    className="nav-link hover:underline hover:decoration-[#1E73BE] hover:text-[#626262] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#d4d4d47c] hover:before:z-[-1]"
+                    className="nav-link hover:underline hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   > 
                   FALE CONOSCO
-                    <i className="ri-search-line"></i>
+                    
                   </a>
+                  <i className="ri-search-line px-2 "></i>
                 </li>
               </ul>
               <div className="hamburguer md:hidden flex flex-col gap-1.5">

@@ -81,7 +81,7 @@ const footer = () => {
         <div className="parte-branca">
           <div className="logo-f">
             <Image
-              src="/images/logo.png"
+              src="/images/prefeitura.png"
               alt="Logo do footer"
               width={200}
               height={100}
