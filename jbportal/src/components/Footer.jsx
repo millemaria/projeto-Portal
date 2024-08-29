@@ -81,10 +81,10 @@ const footer = () => {
         <div className="parte-branca">
           <div className="logo-f">
             <Image
-              src="/images/prefeitura.png"
+              src="/images/logofooter.png"
               alt="Logo do footer"
               width={200}
-              height={100}
+              height={200}
             />
           </div>
           <div className="details1">
