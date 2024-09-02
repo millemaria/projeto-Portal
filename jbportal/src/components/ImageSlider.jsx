@@ -15,7 +15,6 @@ const DynamicSlider = dynamic(() => import('react-slick'), {
 
 export default function ImageSlider() {
   const settings = {
-    doots: true,
     infinite: true,
     speed: 950,
     slidesToShow: 1,
