@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { BsBuildings, BsCashStack, BsFileText, BsPeople, BsBarChart, BsEye, BsDatabase, BsSearch, BsInfoCircle, BsRadar } from "react-icons/bs";
+import { BsBuildings, BsCashStack, BsFileText, BsPeople, BsBarChart, BsEye, BsDatabase, BsSearch, BsInfoCircle } from "react-icons/bs";
 
 
 
@@ -15,6 +15,7 @@ const DynamicSlider = dynamic(() => import('react-slick'), {
 
 export default function ImageSlider() {
   const settings = {
+    doots: true,
     infinite: true,
     speed: 950,
     slidesToShow: 1,
