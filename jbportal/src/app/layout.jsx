@@ -2,10 +2,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./style/footer.css"
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portal Transparência",
+  title: "HOME - Portal Transparência",
 };
 
 export default function RootLayout({ children }) {

@@ -7,12 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      zIndex: {
+        '-1': '-1', // Adiciona o valor -1 para z-index
+      },
+      textUnderlineOffset: {
+        'custom': '4px', // Ajuste o valor conforme necessário
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities, theme }) {
+      const textUnderlineOffsets = theme('textUnderlineOffset');
+      const textUnderlineOffsetUtilities = Object.keys(textUnderlineOffsets).map((key) => {
+        return {
+          [`.underline-offset-${key}`]: {
+            'text-underline-offset': textUnderlineOffsets[key],
+          },
+        };
+      });
+      addUtilities(textUnderlineOffsetUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
