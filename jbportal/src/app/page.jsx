@@ -4,15 +4,16 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ImageSlider from "@/components/ImageSlider";
 import { PiTreeStructureFill } from "react-icons/pi";
-import { FaUsers, FaBalanceScale, FaScroll, FaBuilding, FaCommentsDollar, FaInfoCircle, FaTrafficLight, FaCalendarAlt, FaMoneyBill, FaCalculator} from "react-icons/fa";
-import { BsCurrencyDollar,  BsCreditCard, BsFillFileEarmarkCheckFill,  BsFillPersonBadgeFill} from "react-icons/bs";
+import { FaUsers, FaBalanceScale, FaScroll, FaBuilding, FaCommentsDollar, FaInfoCircle, FaTrafficLight, FaCalendarAlt, FaMoneyBill, FaCalculator, FaBookReader, FaPencilRuler, FaIdCard, FaHandsHelping, FaNewspaper, FaTree, FaFolderOpen, FaDigitalOcean,  FaLock} from "react-icons/fa";
+import { BsCurrencyDollar,  BsCreditCard, BsFillFileEarmarkCheckFill,  BsFillPersonBadgeFill, BsFillInfoCircleFill} from "react-icons/bs";
+import { RiHomeHeartFill } from "react-icons/ri";
 import { GrDocumentTransfer } from "react-icons/gr";
 import { RiGovernmentFill } from "react-icons/ri";
-import { FaHandshake, FaCity } from "react-icons/fa6";
+import { FaHandshake, FaCity, FaHelmetSafety, FaMasksTheater, FaHeadset } from "react-icons/fa6";
 import { GiTakeMyMoney } from "react-icons/gi";
 import { IoIosAirplane } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
-import { MdFamilyRestroom } from "react-icons/md";
+import { MdFamilyRestroom, MdLocalHospital} from "react-icons/md";
 import Link from "next/link";
 
 const images = [
@@ -24,8 +25,8 @@ export default function Home() {
   return (
     <div>
       <Menu />
-
       <ImageSlider />
+
       <section className="bg-white py-12">
   <div className="container mx-auto">
   <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10" >
@@ -64,7 +65,7 @@ export default function Home() {
   </div>
 </section>
 
-{/* Nova Seção */}
+{/* Receitas  */}
 <section className="bg-white py-12">
   <div className="container mx-auto">
     <h2 className="text-center text-blue-800 text-3xl font-bold  mb-16 my-10">
@@ -176,6 +177,103 @@ export default function Home() {
   </div>
 </section>
 
+<section className="py-10 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold text-blue-900 text-center mb-16 my-10">MAIS TRANSPARÊNCIA</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center">
+          <Link href="/projetos-municipais">
+            <div>
+              <FaBookReader className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">PROJETOS MUNICIPAIS</p>
+            </div>
+          </Link>
+          <Link href="/saude">
+            <div>
+              <MdLocalHospital className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">SAÚDE</p>
+            </div>
+          </Link>
+          <Link href="/educacao">
+            <div>
+              <FaPencilRuler className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">EDUCAÇÃO</p>
+            </div>
+          </Link>
+          <Link href="/acompanhamento-de-obras">
+            <div>
+              <FaHelmetSafety className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">ACOMPANHAMENTO DE OBRAS</p>
+            </div>
+          </Link>
+          <Link href="/conselhos-municipais">
+            <div>
+              <FaIdCard className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">CONSELHOS MUNICIPAIS</p>
+            </div>
+          </Link>  
+          <Link href="/ppp">
+            <div>
+              <FaHandsHelping className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">PPP - PARCERIAS PÚBLICO-PRIVADA</p>
+            </div>
+          </Link>
+          <Link href="/auxilio-moradia">
+            <div>
+              <RiHomeHeartFill className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">AUXÍLIO MORADIA</p>
+            </div>
+          </Link>
+          <Link href="/lei-paulo-gustavo">
+            <div>
+              <FaMasksTheater className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">LEI PAULO GUSTAVO</p>
+            </div>
+          </Link>
+          <Link href="/lei-aldir-blanc">
+            <div>
+              <FaNewspaper className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">LEI ALDIR BLANC</p>
+            </div>
+          </Link>
+          <Link href="/fundo-municipal-meio-ambiente">
+            <div>
+              <FaTree className="text-blue-900 text-6xl mx-auto mb-2" />
+              <p className="text-sm font-semibold">FUNDO MUNICIPAL DE MEIO AMBIENTE</p>
+            </div>
+          </Link>
+        </div>
+      </div>
+    </section>
+
+    <section className="bg-white py-12">
+  <div className="container mx-auto">
+    <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10">
+    GOVERNANÇA DE DADOS E TRANSPARÊNCIA
+    </h2>
+    <div className="flex justify-center space-x-16">
+    <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
+        <FaFolderOpen className="text-5xl mx-auto mb-1 text-blue-900" />
+        <p className="text-black">DADOS<br /> ABERTOS</p>
+      </Link>
+      <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
+        <FaDigitalOcean className="text-5xl mx-auto mb-1 text-blue-900" />
+        <p className="text-black">GOVERNO< br/>DIGITAL</p>
+      </Link>
+      <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
+        <FaLock className="text-5xl mx-auto mb-1 text-blue-900" />
+        <p className="text-black">LGPD</p>
+      </Link>
+      <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+        <FaHeadset className="text-5xl mx-auto mb-1 text-blue-900" />
+        <p className="text-black">OUVIDORIA</p>
+      </Link>
+      <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+        <BsFillInfoCircleFill className="text-5xl mx-auto mb-1 text-blue-900" />
+        <p className="text-black">ACESSO À <br/> INFORMAÇÃO - SIC</p>
+      </Link>
+    </div>
+  </div>
+</section>
       <Footer />
     </div>
   );
