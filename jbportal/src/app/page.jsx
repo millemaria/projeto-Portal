@@ -15,6 +15,8 @@ import { IoIosAirplane } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
 import { MdFamilyRestroom, MdLocalHospital} from "react-icons/md";
 import Link from "next/link";
+import BorderTop from "@/components/BorderTop";
+
 
 const images = [
   'images/slide2.png',
@@ -26,13 +28,13 @@ export default function Home() {
     <div>
       <Menu />
       <ImageSlider />
-
+      
       <section className="bg-white py-12">
   <div className="container mx-auto">
-  <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10" >
+  <h2 className="text-center text-blue-800 text-3xl font-bebas font-bold mb-16 my-10">
   INSTITUCIONAL
 </h2>
-    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center">
+    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
       <Link href="/estrutura-organizacional" className="text-center hover:text-blue-600">
         <PiTreeStructureFill className="text-5xl mx-auto text-blue-900" />
         <p className="text-black">ESTRUTURA ORGANIZACIONAL</p>
@@ -64,14 +66,14 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+<BorderTop />
 {/* Receitas  */}
 <section className="bg-white py-12">
   <div className="container mx-auto">
     <h2 className="text-center text-blue-800 text-3xl font-bold  mb-16 my-10">
       RECEITAS E DESPESAS
     </h2>
-    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center">
+    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
       <Link href="/receitas" className="text-center hover:text-blue-600">
         <BsCurrencyDollar className="text-5xl mx-auto text-blue-900" />
         <p className="text-black">RECEITAS</p>
@@ -103,13 +105,13 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+<BorderTop />
 <section className="bg-white py-12">
   <div className="container mx-auto">
     <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10">
       LICITAÇÕES E CONTRATOS
     </h2>
-    <div className="flex justify-center space-x-16">
+    <div className="flex justify-center space-x-16  mb-8">
       <Link href="/licitaçoes" className="text-center hover:text-blue-600">
         <GiTakeMyMoney className="text-5xl mx-auto mb-1 text-blue-900" />
         <p className="text-black">LICITAÇÕES</p>
@@ -121,13 +123,13 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+<BorderTop />
 <section className="bg-white py-12">
   <div className="container mx-auto">
     <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10">
     CONVÊNIOS | EMENDAS | OUTROS REPASSES
     </h2>
-    <div className="flex justify-center space-x-16">
+    <div className="flex justify-center space-x-16  mb-8">
     <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
         <FaHandshake className="text-5xl mx-auto mb-1 text-blue-900" />
         <p className="text-black">TRANSFERÊNCIAS <br />REALIZADAS / TERMOS DE PARCERIA</p>
@@ -151,13 +153,13 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+<BorderTop />
 <section className="bg-white py-12">
   <div className="container mx-auto">
     <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10">
     PLANEJAMENTO E GESTÃO FISCAL
     </h2>
-    <div className="flex justify-center space-x-16">
+    <div className="flex justify-center space-x-16  mb-8">
       <Link href="/planejamento" className="text-center hover:text-blue-600">
         <FaCity className="text-5xl mx-auto mb-1 text-blue-900" />
         <p className="text-black">PLANEJAMENTO
@@ -176,11 +178,11 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+<BorderTop />
 <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-blue-900 text-center mb-16 my-10">MAIS TRANSPARÊNCIA</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center">
+        <h2 className="text-3xl font-bold text-blue-900 text-center mb-16 my-8">MAIS TRANSPARÊNCIA</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center  mb-8">
           <Link href="/projetos-municipais">
             <div>
               <FaBookReader className="text-blue-900 text-6xl mx-auto mb-2" />
@@ -244,13 +246,13 @@ export default function Home() {
         </div>
       </div>
     </section>
-
+    <BorderTop />
     <section className="bg-white py-12">
   <div className="container mx-auto">
     <h2 className="text-center text-blue-800 text-3xl font-bold mb-16 my-10">
     GOVERNANÇA DE DADOS E TRANSPARÊNCIA
     </h2>
-    <div className="flex justify-center space-x-16">
+    <div className="flex justify-center space-x-16 mb-8">
     <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
         <FaFolderOpen className="text-5xl mx-auto mb-1 text-blue-900" />
         <p className="text-black">DADOS<br /> ABERTOS</p>
