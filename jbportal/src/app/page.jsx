@@ -17,6 +17,7 @@ import { MdFamilyRestroom, MdLocalHospital } from "react-icons/md";
 import Link from "next/link";
 import BorderTop from "@/components/BorderTop";
 import localFont from 'next/font/local';
+import FormOpinion from "@/components/FormOpinion";
 
 const bebasNeue = localFont({
   src: '../utils/Bebas_Neue/BebasNeue-Regular.ttf',
@@ -282,6 +283,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <BorderTop />
+      <FormOpinion/>
       <Footer />
     </div>
   );
