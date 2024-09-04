@@ -3,7 +3,7 @@ const BorderTop = () => {
 <div className="relative w-full -my-1">
           <svg
             width="100%"
-            viewBox="0 0 2000 96"
+            viewBox="0 0 1900 96"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             

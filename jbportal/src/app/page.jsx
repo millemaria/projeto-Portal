@@ -19,9 +19,16 @@ import BorderTop from "@/components/BorderTop";
 import localFont from 'next/font/local';
 import FormOpinion from "@/components/FormOpinion";
 
+
+
 const bebasNeue = localFont({
   src: '../utils/Bebas_Neue/BebasNeue-Regular.ttf',
   variable: '--font-bebas',
+});
+
+const openSans = localFont({
+  src: '../utils/open-sans/OpenSans-Regular.ttf',
+  variable: '--font-open',
 });
 
 
@@ -36,19 +43,19 @@ export default function Home() {
       <Menu />
       <ImageSlider />
 
-      <section className="bg-white py-12">
-        <div className="container mx-auto">
+      <section id="institucional" className="bg-white py-12">
+        <div className="container mx-auto onClick={() => handleScroll('targetSection')}">
           <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
             INSTITUCIONAL
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
             <Link href="/estrutura-organizacional" className="text-center hover:text-blue-600">
               <PiTreeStructureFill className="text-5xl mx-auto text-blue-900" />
-              <p className="text-black">ESTRUTURA ORGANIZACIONAL</p>
+              <p className={`${openSans.variable} text-black`}>ESTRUTURA ORGANIZACIONAL</p>
             </Link>
-            <Link href="/recursos-humanos" className="text-center hover:text-blue-600">
+            <Link href="/recursos-humanos" className="text-center">
               <FaUsers className="text-5xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">RECURSOS HUMANOS</p>
+              <p className={`${openSans.variable} text-black`}>RECURSOS HUMANOS</p>
             </Link>
             <Link href="/legislacao" className="text-center hover:text-blue-600">
               <FaBalanceScale className="text-5xl mx-auto mb-1 text-blue-900" />

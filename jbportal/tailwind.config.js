@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         bebas: 'var(--font-bebas)',
+        roboto: 'var(--font-roboto)',
       },
     },
   },
