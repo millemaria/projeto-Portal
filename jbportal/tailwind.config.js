@@ -13,6 +13,9 @@ module.exports = {
       textUnderlineOffset: {
         'custom': '4px', // Ajuste o valor conforme necessário
       },
+      fontFamily: {
+        bebas: 'var(--font-bebas)',
+      },
     },
   },
   plugins: [
