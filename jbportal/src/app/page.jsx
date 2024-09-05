@@ -140,7 +140,7 @@ export default function Home() {
       <BorderTop />
       <section className="bg-white py-12">
         <div className="container mx-auto">
-        <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
+          <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
             CONVÊNIOS | EMENDAS | OUTROS REPASSES
           </h2>
           <div className="flex justify-center space-x-16  mb-8">
@@ -170,7 +170,7 @@ export default function Home() {
       <BorderTop />
       <section className="bg-white py-12">
         <div className="container mx-auto">
-        <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
+          <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
             PLANEJAMENTO E GESTÃO FISCAL
           </h2>
           <div className="flex justify-center space-x-16  mb-8">
@@ -261,37 +261,37 @@ export default function Home() {
         </div>
       </section>
       <BorderTop />
-      <section className="bg-white py-12">
-        <div className="container mx-auto">
-          <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
-            GOVERNANÇA DE DADOS E TRANSPARÊNCIA
-          </h2>
-          <div className="flex justify-center space-x-16 mb-8">
-            <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
-              <FaFolderOpen className="text-5xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">DADOS<br /> ABERTOS</p>
-            </Link>
-            <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
-              <FaDigitalOcean className="text-5xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">GOVERNO< br />DIGITAL</p>
-            </Link>
-            <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
-              <FaLock className="text-5xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">LGPD</p>
-            </Link>
-            <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
-              <FaHeadset className="text-5xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">OUVIDORIA</p>
-            </Link>
-            <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
-              <BsFillInfoCircleFill className="text-5xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">ACESSO À <br /> INFORMAÇÃO - SIC</p>
-            </Link>
+        <section className="bg-white py-12">
+          <div className="container mx-auto">
+            <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
+              GOVERNANÇA DE DADOS E TRANSPARÊNCIA
+            </h2>
+            <div className="flex justify-center space-x-16 mb-8">
+              <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
+                <FaFolderOpen className="text-5xl mx-auto mb-1 text-blue-900" />
+                <p className="text-black">DADOS<br /> ABERTOS</p>
+              </Link>
+              <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
+                <FaDigitalOcean className="text-5xl mx-auto mb-1 text-blue-900" />
+                <p className="text-black">GOVERNO< br />DIGITAL</p>
+              </Link>
+              <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
+                <FaLock className="text-5xl mx-auto mb-1 text-blue-900" />
+                <p className="text-black">LGPD</p>
+              </Link>
+              <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+                <FaHeadset className="text-5xl mx-auto mb-1 text-blue-900" />
+                <p className="text-black">OUVIDORIA</p>
+              </Link>
+              <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+                <BsFillInfoCircleFill className="text-5xl mx-auto mb-1 text-blue-900" />
+                <p className="text-black">ACESSO À <br /> INFORMAÇÃO - SIC</p>
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       <BorderTop />
-      <FormOpinion/>
+      <FormOpinion />
       <Footer />
     </div>
   );
