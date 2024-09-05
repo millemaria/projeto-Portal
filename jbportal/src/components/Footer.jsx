@@ -42,20 +42,20 @@ const Footer = () => {
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
               <li>
-                <a href="http://example.com/amor-jaboatao">AMOR JABOATÃO</a>
+                <a href="https://amorpor.jaboatao.pe.gov.br/">AMOR JABOATÃO</a>
               </li>
               <li>
-                <a href="http://example.com/bem-estar-animal">
+                <a href="https://bemestaranimal.jaboatao.pe.gov.br/">
                   BEM ESTAR ANIMAL
                 </a>
               </li>
               <li>
-                <a href="http://example.com/conselho-usuarios">
+                <a href="https://conselhodeusuarios.jaboatao.pe.gov.br/">
                   CONSELHO DE USUÁRIOS
                 </a>
               </li>
               <li>
-                <a href="http://example.com/de-olho-na-consulta">
+                <a href="https://deolhonaconsulta.jaboatao.pe.gov.br/">
                   DE OLHO NA CONSULTA
                 </a>
               </li>
@@ -63,40 +63,40 @@ const Footer = () => {
                 <a href="http://example.com/diario-oficial">DIÁRIO OFICIAL</a>
               </li>
               <li>
-                <a href="http://example.com/educacao">EDUCAÇÃO</a>
+                <a href="https://educacao.jaboatao.pe.gov.br/">EDUCAÇÃO</a>
               </li>
               <li>
-                <a href="http://example.com/economia-criativa">
+                <a href="https://economiacriativa.jaboatao.pe.gov.br/">
                   ECONOMIA CRIATIVA
                 </a>
               </li>
               <li>
-                <a href="http://example.com/emlume">EMLUME</a>
+                <a href="https://emlume.com.br/">EMLUME</a>
               </li>
               <li>
-                <a href="http://example.com/estacao-bem-estar">
+                <a href="https://estacaobemestar.jaboatao.pe.gov.br/">
                   ESTAÇÃO BEM ESTAR
                 </a>
               </li>
               <li>
-                <a href="http://example.com/jaboatao-em-acao">
+                <a href="https://jaboataoemacao.jaboatao.pe.gov.br/">
                   JABOATÃO EM AÇÃO
                 </a>
               </li>
               <li>
-                <a href="http://example.com/jaboataoprev">JABOATAOPREV</a>
+                <a href="https://jaboataoprev.jaboatao.pe.gov.br/">JABOATAOPREV</a>
               </li>
               <li>
-                <a href="http://example.com/meio-ambiente">MEIO AMBIENTE</a>
+                <a href="https://semam.jaboatao.pe.gov.br/">MEIO AMBIENTE</a>
               </li>
               <li>
                 <a href="http://example.com/oficial">OFICIAL</a>
               </li>
               <li>
-                <a href="http://example.com/ouvidoria">OUVIDORIA</a>
+                <a href="https://ouvidoria.jaboatao.pe.gov.br/">OUVIDORIA</a>
               </li>
               <li>
-                <a href="http://example.com/portal-contribuinte">
+                <a href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp">
                   PORTAL DO CONTRIBUINTE
                 </a>
               </li>
@@ -106,16 +106,16 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="http://example.com/procon">PROCON</a>
+                <a href="https://procon.jaboatao.pe.gov.br/">PROCON</a>
               </li>
               <li>
-                <a href="http://example.com/servidor">SERVIDOR</a>
+                <a href="https://servidor.jaboatao.pe.gov.br/">SERVIDOR</a>
               </li>
               <li>
-                <a href="http://example.com/trabalho">TRABALHO</a>
+                <a href="https://trabalho.jaboatao.pe.gov.br/">TRABALHO</a>
               </li>
               <li>
-                <a href="http://example.com/viver">VIVER</a>
+                <a href="https://viver.jaboatao.pe.gov.br/">VIVER</a>
               </li>
             </ul>
           </div>
