@@ -4,67 +4,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.footer {
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 400px;
-    background-color: #184277;
-    color: #fff;
-    font-size: 13px;
-}
-
-
-.footer-column1 {
-    flex: 1;
-    padding: 0 20px;
-    border-left: #ffffff 2px dotted;
-    margin-bottom: auto;
-    margin-right: -200px;
-}
-.footer-column2 {
-    flex: 1;
-    padding: 0 20px;
-    border-left: #ffffff 2px dotted;
-    margin-bottom: auto;
-}
-.footer-column3 {
-    flex: 1;
-    padding: 0 20px;
-    border-left: #ffffff 2px dotted;
-    margin-bottom: auto;
-    margin-left: -200px;
-}
-
-.footer-title {
+@media (min-width: 1500px) {
+    .footer {
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      justify-content: space-between; /* Garante que as colunas se espalhem uniformemente */
+      align-items: stretch; /* Faz com que as colunas tenham a mesma altura */
+      padding: 90px 20px; /* Padding horizontal ajustado para responsividade */
+      background-color: #184277;
+      color: #fff;
+      font-size: 13px;
+      width: 100%;
+      flex-wrap: wrap; /* Permite que as colunas quebrem linha em telas menores */
+    }
+    
+    .footer-column1,
+    .footer-column2,
+    .footer-column3 {
+      flex: 1; /* Faz com que cada coluna use igualmente o espaço disponível */
+      padding: 0 20px;
+      border-left: #ffffff 2px dotted;
+      min-width: 200px; /* Define uma largura mínima para as colunas */
+      display: flex;
+      flex-direction: column; /* Garante que o conteúdo interno seja empilhado */
+      height: 100%; /* Faz com que a borda ocupe toda a altura da coluna */
+      
+    }
+    
+    .footer-column1 {
+      margin-left: 400px;
+    }
+    
+    .footer-column3 {
+      margin-right: 300px;
+    }
+    
+    
+    .footer-title {
     font-size: 18px;
     margin-top: 10px;
-}
-
-.footer-border {
+    font-weight: bold;
+    font-family: "OpenSans", sans-serif;
+    }
+    
+    .footer-border {
     border-bottom: 1px #fff solid;
-    margin-right: 520px;
-    margin-bottom: 5px;
-}
-
-.footer-list {
+    margin-bottom: 10px;
+    width: 20%; /* Mantém a borda com largura 100% da coluna */
+    }
+    
+    .footer-list {
     list-style: none;
-}
-
-.footer-list li {
+    padding: 0;
+    }
+    
+    .footer-list li {
     margin-bottom: 5px;
-}
-
-.icones-footer {
+    }
+    
+    .icones-footer {
     display: flex;
     gap: 20px;
     font-size: 25px;
-}
-
-.parte-branca {
-    font-family: 'Open Sans', sans-serif;
+    }
+    
+    .parte-branca {
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     width: 100%;
     display: flex;
@@ -72,28 +77,302 @@
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #f8f8f8;
-}
-
-.details1  {
+    }
+    
+    .details1 {
     text-align: center;
     color: #224276;
-}
-
-.details2 {
+    }
+    
+    .details2 {
     text-align: end;
     margin-right: 300px;
     color: #224276;
-}
-
-.logo-f img {
+    }
+    
+    .logo-f img {
     height: 50px;
     margin-left: 300px;
-}
-
-.credits {
+    }
+    
+    .credits {
     background-color: black;
     color: white;
     font-size: 14px;
     text-align: center;
     padding: 5px;
-}
+    }
+    
+    .footer-list a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do texto do pai */
+    font-family: "OpenSans", sans-serif;
+    }
+    
+    .footer-list a:hover {
+    text-decoration: underline;
+    }
+    
+    .footer-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "OpenSans", sans-serif;
+    }
+    
+    .footer-column3 .footer-title a {
+    text-decoration: none;
+    }
+    
+    .footer-column3 .footer-title a:hover {
+    text-decoration: underline;
+    }
+    
+    .icones-footer a i {
+    color: inherit; /* Mantém a cor original dos ícones */
+    transition: color 0.3s ease; /* Adiciona uma transição suave ao hover */
+    }
+    
+    .icones-footer a i:hover {
+    color: #fff; /* Muda a cor do ícone para branco no hover */
+    }
+    }
+    
+    @media (max-width:1499px) and ( min-width: 768px) {
+      .footer {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: space-between; /* Garante que as colunas se espalhem uniformemente */
+        align-items: stretch; /* Faz com que as colunas tenham a mesma altura */
+        padding: 90px 20px; /* Padding horizontal ajustado para responsividade */
+        background-color: #184277;
+        color: #fff;
+        font-size: 13px;
+        width: 100%;
+        flex-wrap: wrap; /* Permite que as colunas quebrem linha em telas menores */
+      }
+      
+      .footer-column1,
+      .footer-column2,
+      .footer-column3 {
+        flex: 1; /* Faz com que cada coluna use igualmente o espaço disponível */
+        padding: 0 20px;
+        border-left: #ffffff 2px dotted;
+        min-width: 200px; /* Define uma largura mínima para as colunas */
+        display: flex;
+        flex-direction: column; /* Garante que o conteúdo interno seja empilhado */
+        height: 100%; /* Faz com que a borda ocupe toda a altura da coluna */
+        
+      }
+      
+      
+      .footer-title {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: bold;
+      font-family: "OpenSans", sans-serif;
+      }
+      
+      .footer-border {
+      border-bottom: 1px #fff solid;
+      margin-bottom: 10px;
+      width: 20%; /* Mantém a borda com largura 100% da coluna */
+      }
+      
+      .footer-list {
+      list-style: none;
+      padding: 0;
+      }
+      
+      .footer-list li {
+      margin-bottom: 5px;
+      }
+      
+      .icones-footer {
+      display: flex;
+      gap: 20px;
+      font-size: 25px;
+      }
+      
+      .parte-branca {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        text-align: center; /* Centraliza o texto */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #f8f8f8;
+      }
+      
+      .details1, .details2 {
+        color: #224276;
+        margin: 10px 0; /* Adiciona espaçamento entre os detalhes e a logo */
+      }
+      
+      .logo-f img {
+        height: 50px;
+        margin: 20px auto; /* Centraliza a logo horizontalmente */
+      }
+      
+      .credits {
+      background-color: black;
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px;
+      }
+      
+      .footer-list a {
+      text-decoration: none;
+      color: inherit; /* Herda a cor do texto do pai */
+      font-family: "OpenSans", sans-serif;
+      }
+      
+      .footer-list a:hover {
+      text-decoration: underline;
+      }
+      
+      .footer-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+      font-family: "OpenSans", sans-serif;
+      }
+      
+      .footer-column3 .footer-title a {
+      text-decoration: none;
+      }
+      
+      .footer-column3 .footer-title a:hover {
+      text-decoration: underline;
+      }
+      
+      .icones-footer a i {
+      color: inherit; /* Mantém a cor original dos ícones */
+      transition: color 0.3s ease; /* Adiciona uma transição suave ao hover */
+      }
+      
+      .icones-footer a i:hover {
+      color: #fff; /* Muda a cor do ícone para branco no hover */
+      }
+      }
+    
+    @media (max-width: 768px) {
+      .footer {
+        font-family: 'Open Sans', sans-serif;
+        padding: 90px 20px; /* Padding horizontal ajustado para responsividade */
+        background-color: #184277;
+        color: #fff;
+        font-size: 13px;
+        width: 100%;
+        flex-wrap: wrap; /* Permite que as colunas quebrem linha em telas menores */
+      }
+      
+      .footer-column1,
+      .footer-column2,
+      .footer-column3 {
+        padding: 0 20px;
+        border-left: #ffffff 2px dotted;
+        min-width: 200px; /* Define uma largura mínima para as colunas */
+        display: flex;
+        flex-direction: column;
+        height: 100%; /* Faz com que a borda ocupe toda a altura da coluna */
+        
+      }
+      
+      .footer-title {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: bold;
+      font-family: "OpenSans", sans-serif;
+      }
+      
+      .footer-border {
+      border-bottom: 1px #fff solid;
+      margin-bottom: 10px;
+      width: 20%; /* Mantém a borda com largura 100% da coluna */
+      }
+      
+      .footer-list {
+      list-style: none;
+      padding: 0;
+      }
+      
+      .footer-list li {
+      margin-bottom: 5px;
+      }
+      
+      .icones-footer {
+      display: flex;
+      gap: 20px;
+      font-size: 25px;
+      }
+      
+      .parte-branca {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        text-align: center; /* Centraliza o texto */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #f8f8f8;
+      }
+      
+      .details1, .details2 {
+        color: #224276;
+        margin: 10px 0; /* Adiciona espaçamento entre os detalhes e a logo */
+      }
+      
+      .logo-f img {
+        height: 50px;
+        margin: 20px auto; /* Centraliza a logo horizontalmente */
+      }
+      
+      .credits {
+      background-color: black;
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px;
+      }
+      
+      .footer-list a {
+      text-decoration: none;
+      color: inherit; /* Herda a cor do texto do pai */
+      font-family: "OpenSans", sans-serif;
+      }
+      
+      .footer-list a:hover {
+      text-decoration: underline;
+      }
+      
+      .footer-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+      font-family: "OpenSans", sans-serif;
+      }
+      
+      .footer-column3 .footer-title a {
+      text-decoration: none;
+      }
+      
+      .footer-column3 .footer-title a:hover {
+      text-decoration: underline;
+      }
+      
+      .icones-footer a i {
+      color: inherit; /* Mantém a cor original dos ícones */
+      transition: color 0.3s ease; /* Adiciona uma transição suave ao hover */
+      }
+      
+      .icones-footer a i:hover {
+      color: #fff; /* Muda a cor do ícone para branco no hover */
+      }
+      }
+      

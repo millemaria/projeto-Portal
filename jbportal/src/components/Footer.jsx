@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div>
       <footer className="footer-principal">
@@ -9,21 +9,121 @@ const footer = () => {
             <h3 className="footer-title">MAPA DO SITE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
-              <li>MAPA DA ESTRATÉGIA</li>
-              <li>PORTAL DA TRANSPARÊNCIA</li>
-              <li>ESTRUTURA ORGANIZACIONAL</li>
-              <li>GALERIA DE ELOGIOS</li>
-              <li>CIDADÃO</li>
-              <li>CARTAS DE SERVIÇO</li>
-              <li>EMPRESA</li>
-              <li>SERVIDOR</li>
-              <li>TURISTA</li>
-              <li>PPP-SAUDE</li>
-              <li>MAPA DAS ESCOLAS MUNICIPAIS</li>
-              <li>MAPA DAS UNIDADES DE SAÚDE POR REGIONAIS</li>
-              <li>MAPA DOS BARES E RESTAURANTES</li>
-              <li>MAPA DOS MERCADOS PÚBLICOS</li>
-              <li>MAPA DAS UNIDADES DO CRAS E CREAS MUNICIPAIS</li>
+              <li>
+                <a href="http://example.com/mapa-estrategia">
+                  A LAI
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/portal-transparencia">
+                  RECEITAS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/estrutura-organizacional">
+                  DESPESAS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/galeria-elogios">
+                  LICITAÇÕES
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/cidadao">RECURSOS</a>
+              </li>
+              <li>
+                <a href="http://example.com/cartas-servico">
+                  PREVIDÊNCIA MUNCIPAL
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/empresa">CONTRATOS</a>
+              </li>
+              <li>
+                <a href="http://example.com/servidor">TRANSFERÊNCIAS REALIZADAS</a>
+              </li>
+              <li>
+                <a href="http://example.com/turista">TRANSFERÊNCIAS REALIZADAS/CONVÊNIOS</a>
+              </li>
+              <li>
+                <a href="http://example.com/ppp-saude">EMENDAS PARLAMENTARES</a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-escolas-municipais">
+                  TERCEIRO
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-saude">
+                  SETOR
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-bares-restaurantes">
+                  DUODÉCIMO
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-mercados-publicos">
+                  PLANEJAMENTO MUNCIPAL
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                PRESTAÇÃO DE CONTAS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                PROGRAMAS E AÇÕES
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                PROJWTOS MUNCIPAIS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                SAÚDE
+                </a>
+                <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                ACOMPANHAMENTO DE OBRAS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                LEI PAULO GUSTAVO
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                LEI ALDIR BLANC
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                DADOS ABERTOS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                LGPD
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                OUVIDORIA
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/mapa-unidades-cras-creas">
+                ACESSO À INFORMAÇÃO - SIC
+                </a>
+              </li>
+              </li>
             </ul>
           </div>
 
@@ -31,49 +131,131 @@ const footer = () => {
             <h3 className="footer-title">SITES RELACIONADOS</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
-              <li>AMOR JABOATÃO</li>
-              <li>BEM ESTAR ANIMAL</li>
-              <li>CONSELHO DE USUÁRIOS</li>
-              <li>DE OLHO NA CONSULTA</li>
-              <li>DIÁRIO OFICIAL</li>
-              <li>EDUCAÇÃO</li>
-              <li>ECONOMIA CRIATIVA</li>
-              <li>EMLUME</li>
-              <li>ESTAÇÃO BEM ESTAR</li>
-              <li>JABOATÃO EM AÇÃO</li>
-              <li>JABOATAOPREV</li>
-              <li>MEIO AMBIENTE</li>
-              <li>OFICIAL</li>
-              <li>OUVIDORIA</li>
-              <li>PORTAL DO CONTRIBUINTE</li>
-              <li>PORTAL DA TRANSPARÊNCIA</li>
-              <li>PROCON</li>
-              <li>SERVIDOR</li>
-              <li>TRABALHO</li>
-              <li>VIVER</li>
+              <li>
+                <a href="http://example.com/amor-jaboatao">AMOR JABOATÃO</a>
+              </li>
+              <li>
+                <a href="http://example.com/bem-estar-animal">
+                  BEM ESTAR ANIMAL
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/conselho-usuarios">
+                  CONSELHO DE USUÁRIOS
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/de-olho-na-consulta">
+                  DE OLHO NA CONSULTA
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/diario-oficial">DIÁRIO OFICIAL</a>
+              </li>
+              <li>
+                <a href="http://example.com/educacao">EDUCAÇÃO</a>
+              </li>
+              <li>
+                <a href="http://example.com/economia-criativa">
+                  ECONOMIA CRIATIVA
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/emlume">EMLUME</a>
+              </li>
+              <li>
+                <a href="http://example.com/estacao-bem-estar">
+                  ESTAÇÃO BEM ESTAR
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/jaboatao-em-acao">
+                  JABOATÃO EM AÇÃO
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/jaboataoprev">JABOATAOPREV</a>
+              </li>
+              <li>
+                <a href="http://example.com/meio-ambiente">MEIO AMBIENTE</a>
+              </li>
+              <li>
+                <a href="http://example.com/oficial">OFICIAL</a>
+              </li>
+              <li>
+                <a href="http://example.com/ouvidoria">OUVIDORIA</a>
+              </li>
+              <li>
+                <a href="http://example.com/portal-contribuinte">
+                  PORTAL DO CONTRIBUINTE
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/portal-transparencia">
+                  PORTAL DA TRANSPARÊNCIA
+                </a>
+              </li>
+              <li>
+                <a href="http://example.com/procon">PROCON</a>
+              </li>
+              <li>
+                <a href="http://example.com/servidor">SERVIDOR</a>
+              </li>
+              <li>
+                <a href="http://example.com/trabalho">TRABALHO</a>
+              </li>
+              <li>
+                <a href="http://example.com/viver">VIVER</a>
+              </li>
             </ul>
           </div>
 
           <div className="footer-column3">
             <h3 className="footer-title">OUVIDORIA</h3>
             <h4 className="footer-border"></h4>
-            <p>OUVIDORIA GERAL: 0800 081 8999</p>
+            <p>OUVIDORIA GERAL: 0800 081 8999/</p>
             <p>(81) 9.9422-5177</p>
             <p>ATENDIMENTO DE SEGUNDA A SEXTA-FEIRA, DAS 8H ÀS 14H</p>
             <p>E-MAIL: ouvidoria@jaboatao.pe.gov.br</p>
+
             <h3 className="footer-title">ACESSIBILIDADE</h3>
             <h4 className="footer-border"></h4>
-            <p>INFORMAÇÕES</p>
+            <ul className="footer-list">
+              <li>
+                <a href="http://example.com/informacoes">INFORMAÇÕES</a>
+              </li>
+              <li>
+                <a href="http://example.com/informacoes">TECLAS DE ATALHO</a>
+              </li>
+            </ul>
+
             <h3 className="footer-title">NAVEGABILIDADE</h3>
             <h4 className="footer-border"></h4>
-            <p>GLOSSÁRIO</p>
+
+            <ul className="footer-list">
+              <li>
+                <a href="http://example.com/glossario">GLOSSÁRIO</a>
+              </li>
+              <li>
+                <a href="http://example.com/glossario">MAPA DO SITE</a>
+              </li>
+            </ul>
+
             <h3 className="footer-title">ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
             <div className="icones-footer">
-              <i className="ri-twitter-x-line"></i>
-              <i className="ri-facebook-circle-fill"></i>
-              <i className="ri-instagram-line"></i>
-              <i className="ri-youtube-fill"></i>
+              <a href="https://twitter.com/">
+                <i className="ri-twitter-x-line"></i>
+              </a>
+              <a href="https://facebook.com/">
+                <i className="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="https://instagram.com/">
+                <i className="ri-instagram-line"></i>
+              </a>
+              <a href="https://youtube.com/">
+                <i className="ri-youtube-fill"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -84,7 +266,7 @@ const footer = () => {
               src="/images/logofooter.png"
               alt="Logo do footer"
               width={200}
-              height={200}
+              height={100}
             />
           </div>
           <div className="details1">
@@ -114,4 +296,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
