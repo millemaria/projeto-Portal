@@ -9,121 +9,31 @@ const Footer = () => {
             <h3 className="footer-title">MAPA DO SITE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
-              <li>
-                <a href="http://example.com/mapa-estrategia">
-                  A LAI
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/portal-transparencia">
-                  RECEITAS
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/estrutura-organizacional">
-                  DESPESAS
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/galeria-elogios">
-                  LICITAÇÕES
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/cidadao">RECURSOS</a>
-              </li>
-              <li>
-                <a href="http://example.com/cartas-servico">
-                  PREVIDÊNCIA MUNCIPAL
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/empresa">CONTRATOS</a>
-              </li>
-              <li>
-                <a href="http://example.com/servidor">TRANSFERÊNCIAS REALIZADAS</a>
-              </li>
-              <li>
-                <a href="http://example.com/turista">TRANSFERÊNCIAS REALIZADAS/CONVÊNIOS</a>
-              </li>
-              <li>
-                <a href="http://example.com/ppp-saude">EMENDAS PARLAMENTARES</a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-escolas-municipais">
-                  TERCEIRO
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-saude">
-                  SETOR
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-bares-restaurantes">
-                  DUODÉCIMO
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-mercados-publicos">
-                  PLANEJAMENTO MUNCIPAL
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                PRESTAÇÃO DE CONTAS
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                PROGRAMAS E AÇÕES
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                PROJWTOS MUNCIPAIS
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                SAÚDE
-                </a>
-                <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                ACOMPANHAMENTO DE OBRAS
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                LEI PAULO GUSTAVO
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                LEI ALDIR BLANC
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                DADOS ABERTOS
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                LGPD
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                OUVIDORIA
-                </a>
-              </li>
-              <li>
-                <a href="http://example.com/mapa-unidades-cras-creas">
-                ACESSO À INFORMAÇÃO - SIC
-                </a>
-              </li>
-              </li>
+              <li><a href="http://example.com/mapa-estrategia">A LAI</a></li>
+              <li><a href="http://example.com/portal-transparencia">RECEITAS</a></li>
+              <li><a href="http://example.com/estrutura-organizacional">DESPESAS</a></li>
+              <li><a href="http://example.com/galeria-elogios">LICITAÇÕES</a></li>
+              <li><a href="http://example.com/cidadao">RECURSOS</a></li>
+              <li><a href="http://example.com/cartas-servico">PREVIDÊNCIA MUNICIPAL</a></li>
+              <li><a href="http://example.com/empresa">CONTRATOS</a></li>
+              <li><a href="http://example.com/servidor">TRANSFERÊNCIAS REALIZADAS</a></li>
+              <li><a href="http://example.com/turista">TRANSFERÊNCIAS REALIZADAS/CONVÊNIOS</a></li>
+              <li><a href="http://example.com/ppp-saude">EMENDAS PARLAMENTARES</a></li>
+              <li><a href="http://example.com/mapa-escolas-municipais">TERCEIRO</a></li>
+              <li><a href="http://example.com/mapa-unidades-saude">SETOR</a></li>
+              <li><a href="http://example.com/mapa-bares-restaurantes">DUODÉCIMO</a></li>
+              <li><a href="http://example.com/mapa-mercados-publicos">PLANEJAMENTO MUNICIPAL</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">PRESTAÇÃO DE CONTAS</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">PROGRAMAS E AÇÕES</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">PROJETOS MUNICIPAIS</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">SAÚDE</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">ACOMPANHAMENTO DE OBRAS</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">LEI PAULO GUSTAVO</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">LEI ALDIR BLANC</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">DADOS ABERTOS</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">LGPD</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">OUVIDORIA</a></li>
+              <li><a href="http://example.com/mapa-unidades-cras-creas">ACESSO À INFORMAÇÃO - SIC</a></li>
             </ul>
           </div>
 
