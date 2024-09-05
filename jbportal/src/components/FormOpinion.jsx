@@ -25,8 +25,9 @@ const FormOpinion = () => {
                         <Image
                             src="/images/regionais-1.webp" // Caminho relativo dentro do diretório public
                             alt="Ícone de Regionais"
-                            width={90}
-                            height={90}
+                            width={90} // Largura da imagem
+                            height={90} // Altura da imagem
+                            className='mr-4'
                         />
                         <fieldset>
                             <legend className="text-lg text-blue-800 font-semibold">Regionais *</legend>
@@ -53,6 +54,7 @@ const FormOpinion = () => {
                             alt="Ícone de Faixa Etária"
                             width={90} // Largura da imagem
                             height={90} // Altura da imagem
+                            className='mr-4'
                         />
                         <fieldset>
                             <legend className="text-lg text-blue-800 font-semibold">Faixa Etária *</legend>
@@ -79,6 +81,7 @@ const FormOpinion = () => {
                             alt="Ícone de Satisfação"
                             width={90} // Largura da imagem
                             height={90} // Altura da imagem
+                            className='mr-4'
                         />
                         <fieldset>
                             <legend className="text-lg text-blue-800 font-semibold">Satisfação <span className="text-red-600">*</span></legend>
