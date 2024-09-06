@@ -79,8 +79,8 @@ const FormOpinion = () => {
                         <Image
                             src="/images/satisfacao.webp" // Caminho relativo dentro do diretório public
                             alt="Ícone de Satisfação"
-                            width={90} // Largura da imagem
-                            height={90} // Altura da imagem
+                            width={90}
+                            height={90}
                             className='mr-4'
                         />
                         <fieldset>
