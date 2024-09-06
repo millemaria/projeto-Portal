@@ -124,7 +124,7 @@ const Menu = () => {
 
           {/* Navbar */}
           <div className="menus">
-            <div className="navbar fixed top-[38px] w-full z-40 bg-[#152e5a94] flex justify-between items-center p-[13px] pl-[20px] pr-[10px]">
+          <div className="navbar fixed top-[38px] w-full z-40 bg-[#152e5a94] flex justify-between items-center p-[13px] pl-[20px] pr-[10px] border-t border-white">
               <a
                 onClick={() => (window.location.href = "/")}
                 href="#"
@@ -135,7 +135,7 @@ const Menu = () => {
                   alt="Logo do Menu"
                   width={749}
                   height={190}
-                  className="w-[210px] h-auto"
+                  className="w-[255px] h-[65px]"
                 />
               </a>
 

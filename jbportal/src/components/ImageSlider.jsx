@@ -42,10 +42,10 @@ export default function ImageSlider() {
 
   return (
     
-    <div className="carousel-container  relative my-">
+    <div className="carousel-container  relative -mt-[95px]">
       <DynamicSlider {...settings}>
 
-        <div className="relative h-4">
+        <div className="relative h-3">
           <img src="/images/carta.png" alt="Slide 1" />
           <div className="absolute inset-0 bg-[#000] opacity-20"></div>
         </div>
@@ -64,45 +64,45 @@ export default function ImageSlider() {
 
       </DynamicSlider>
       <div className="container-menu h-full flex items-center">
-        <section className="menu-home absolute mt-[-235px] left-0 w-full h-auto flex flex-wrap justify-around items-center p-4 bg-opacity-75 z-10">
+        <section className="menu-home absolute mt-[-255px] left-0 w-full h-auto flex flex-wrap justify-around items-center p-4 bg-opacity-75 z-10">
           <a href="#institucional" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsBuildings className="text-6xl text-white" />
+            <BsBuildings className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>INSTITUCIONAL</p>
           </a>
           <a href="#receitas" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsCashStack className="text-6xl text-white" />
+            <BsCashStack className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>RECEITAS<br />E DESPESAS</p>
           </a>
           <a href="#licitacoes" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsFileText className="text-6xl text-white" />
+            <BsFileText className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>LICITAÇÕES<br />E CONTRATOS</p>
           </a>
           <a href="#convenios" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsPeople className="text-6xl text-white" />
+            <BsPeople className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>CONVÊNIOS,<br />EMENDAS E OUTROS REPASSES</p>
           </a>
           <a href="#planejamento" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsBarChart className="text-6xl text-white" />
+            <BsBarChart className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>PLANEJAMENTO<br />E GESTÃO FISCAL</p>
           </a>
           <a href="#transparencia" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsEye className="text-6xl text-white" />
+            <BsEye className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>MAIS<br />TRANSPARÊNCIA</p>
           </a>
           <a href="#governanca" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsDatabase className="text-6xl text-white" />
+            <BsDatabase className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>GOVERNANÇA DE DADOS<br />E TRANSPARÊNCIA</p>
           </a>
           <a href="#pesquisa" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsSearch className="text-6xl text-white" />
+            <BsSearch className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>PESQUISA DE<br />SATISFAÇÃO</p>
           </a>
           <a href="#sic" className="flex flex-col items-center m-2 border-r border-white pr-4 transition-transform transform hover:-translate-y-2 sm:pr-2 md:pr-4 lg:pr-6">
-            <BsInfoCircle className="text-6xl text-white" />
+            <BsInfoCircle className="text-5xl text-white" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>SIC</p>
           </a>
           <a href="#radar" className="flex flex-col items-center m-2 transition-transform transform hover:-translate-y-2">
-            <img src="/images/radar.svg" alt="Radar" className="w-35 h-14" />
+            <img src="/images/radar.svg" alt="Radar" className="w-34 h-14" />
             <p className={`${roboto.variable} mt-1 text-xs text-white text-center`}>Radar da Transparência Pública</p>
           </a>
         </section>
