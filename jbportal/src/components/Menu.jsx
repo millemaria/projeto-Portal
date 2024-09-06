@@ -1,7 +1,13 @@
 "use client";
+import localFont from 'next/font/local';
 import Image from "next/image";
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
+
+const openSans = localFont({
+  src: '../utils/open-sans/OpenSans-Regular.ttf',
+  variable: '--font-open-sans',
+});
 
 const Menu = () => {
   const [dropdowns, setDropdowns] = useState({
@@ -48,6 +54,7 @@ const Menu = () => {
               <li className="nav-topo">
                 <a
                   href="#"
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Acessibilidade
@@ -56,6 +63,7 @@ const Menu = () => {
               <li className="nav-topo">
                 <a
                   href="#"
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Site Oficial
@@ -64,6 +72,7 @@ const Menu = () => {
               <li className="nav-topo">
                 <a
                   href="#"
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Diário Oficial
@@ -71,6 +80,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   href="https://ouvidoria.jaboatao.pe.gov.br/"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
@@ -79,6 +89,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
@@ -87,6 +98,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
@@ -95,6 +107,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   href="#"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
@@ -103,6 +116,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                   href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
@@ -153,6 +167,7 @@ const Menu = () => {
                 >
                   <a
                     href="#"
+                    style={{ fontFamily: 'Open Sans, sans-serif' }}
                     className="nav-link hover:underline text-[#fbfcfd] hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
                     ESTRUTURA ORGANIZACIONAL
@@ -160,7 +175,7 @@ const Menu = () => {
                   {dropdowns.institucional && (
                     <ul className="absolute left-0 w-48 bg-[#2170B5] text-[#ffffff] shadow-lg">
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="#" style={{ fontFamily: 'Open Sans, sans-serif' }} className="block px-4 py-4">
                           MAPA DA ESTRATÉGIA
                         </a>
                       </li>
