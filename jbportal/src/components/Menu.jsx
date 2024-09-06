@@ -71,7 +71,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://ouvidoria.jaboatao.pe.gov.br/"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Ouvidoria
@@ -79,7 +79,7 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://www.tinus.com.br/csp/JABOATAO/portal/index.csp"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Portal do Contribuinte
@@ -103,14 +103,14 @@ const Menu = () => {
               </li>
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html"
                   className="nav-link text-white text-[12px] hover:underline"
                 >
                   Radar da Transparência
                 </a>
               </li>
               <li>
-                <a href="#" className="icone-amarelo">
+                <a href="https://eouve.com.br/#/ouvidoria" className="icone-amarelo">
                   <Image
                     src="/images/iconamarelo.png"
                     alt="foto amarela"
@@ -135,7 +135,7 @@ const Menu = () => {
                   alt="Logo do Menu"
                   width={749}
                   height={190}
-                  className="w-[255px] h-[65px]"
+                  className="w-[255px] h-[64px]"
                 />
               </a>
 
