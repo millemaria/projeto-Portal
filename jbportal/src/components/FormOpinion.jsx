@@ -7,6 +7,11 @@ const bebasNeue = localFont({
     variable: '--font-bebas',
 });
 
+const openSans = localFont({
+    src: '../utils/open-sans/OpenSans-Regular.ttf',
+    variable: '--font-open',
+  });
+
 const faixaEtariaData = ['Até 29', '30 - 39', '40 - 49', '50 - 59', '60 ou mais'];
 const regionalData = ['Regional 01', 'Regional 02', 'Regional 03', 'Regional 04', 'Regional 05', 'Regional 06', 'Regional 07'];
 const pesquisaSatisfacaoData = ['Muito Satisfeito', 'Satisfeito', 'Indiferente', 'Insatisfeito', 'Muito Insatisfeito'];
@@ -84,14 +89,14 @@ const FormOpinion = () => {
                             className='mr-4'
                         />
                         <fieldset>
-                            <legend className="text-lg text-blue-800 font-semibold">Satisfação <span className="text-red-600">*</span></legend>
+                            <legend className={`${openSans.variable} text-lg text-blue-800 font-semibold`}>Satisfação <span className="text-red-600">*</span></legend>
                             <div className="mt-4 space-y-2 text-left">
                                 {pesquisaSatisfacaoData.map((satisfaction) => (
-                                    <label key={satisfaction} className="block">
+                                    <label key={satisfaction} className={`block`}>
                                         <input
                                             type="radio"
                                             name="satisfaction"
-                                            className="mr-2 text-blue-800 focus:ring-blue-800"
+                                            className={`${openSans.variable} mr-2 text-blue-800 focus:ring-blue-800`}
                                             required
                                         />
                                         {satisfaction}
@@ -118,17 +123,17 @@ const FormOpinion = () => {
                     <input
                         type="text"
                         placeholder="Seu nome"
-                        className="border border-blue-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-800"
+                        className={ `${openSans.variable} border border-blue-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-800`}
                     />
                     <input
                         type="email"
                         placeholder="E-mail"
-                        className="border border-blue-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-800"
+                        className={ `${openSans.variable} border border-blue-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-800`}
                     />
                     <textarea
                         placeholder="Mensagem"
                         rows="4"
-                        className="border border-blue-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-800"
+                        className={ `${openSans.variable} border border-blue-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-800`}
                     ></textarea>
                 </div>
 

@@ -91,31 +91,31 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
             <Link href="/receitas" className="text-center hover:text-blue-600">
               <BsCurrencyDollar className="text-6xl mx-auto text-blue-900" />
-              <p className="text-black">RECEITAS</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RECEITAS</p>
             </Link>
             <Link href="/despesas" className="text-center hover:text-blue-600">
               <BsCreditCard className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">DESPESAS</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>DESPESAS</p>
             </Link>
             <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
               <BsFillFileEarmarkCheckFill className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">RENÚNCIAS DE RECEITA</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RENÚNCIAS DE RECEITA</p>
             </Link>
             <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
               <FaCalendarAlt className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">PAGAMENTO POR ORDEM CRONOLÓGICA</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>PAGAMENTO POR ORDEM CRONOLÓGICA</p>
             </Link>
             <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
               <BsFillPersonBadgeFill className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">RETENÇÕES DE IMPOSTOS</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RETENÇÕES DE IMPOSTOS</p>
             </Link>
             <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
               <IoIosAirplane className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">DIÁRIAS E PASSAGENS</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>DIÁRIAS E PASSAGENS</p>
             </Link>
             <Link href="/infrações-transito" className="text-center hover:text-blue-600">
               <FaTrafficLight className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">RECEITAS E DESPESAS - INFRAÇÕES DE TRÂNSITO</p>
+              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RECEITAS E DESPESAS - INFRAÇÕES DE TRÂNSITO</p>
             </Link>
           </div>
         </div>
