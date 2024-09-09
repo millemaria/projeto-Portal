@@ -150,23 +150,35 @@ const Footer = () => {
                 <a href="http://example.com/glossario">MAPA DO SITE</a>
               </li>
             </ul>
-
             <h3 className="footer-title">ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
-            <div className="icones-footer">
-              <a href="https://twitter.com/">
-                <i className="ri-twitter-x-line"></i>
-              </a>
-              <a href="https://facebook.com/">
-                <i className="ri-facebook-circle-fill"></i>
-              </a>
-              <a href="https://instagram.com/">
-                <i className="ri-instagram-line"></i>
-              </a>
-              <a href="https://youtube.com/">
-                <i className="ri-youtube-fill"></i>
-              </a>
-            </div>
+            <div className="icones-footer space-x-4">
+  <a
+    href="https://twitter.com/jaboataoonline"
+    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+  >
+    <i className="ri-twitter-x-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+  </a>
+  <a
+    href="https://www.facebook.com/PrefeituradoJaboatao"
+    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+  >
+    <i className="ri-facebook-circle-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+  </a>
+  <a
+    href="https://www.instagram.com/prefjaboatao/"
+    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+  >
+    <i className="ri-instagram-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+  </a>
+  <a
+    href="https://www.youtube.com/user/prefeiturajaboatao/videos"
+    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+  >
+    <i className="ri-youtube-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+  </a>
+</div>
+
           </div>
         </div>
 
