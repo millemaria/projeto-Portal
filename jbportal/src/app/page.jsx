@@ -19,6 +19,7 @@ import BorderTop from "@/components/BorderTop";
 import localFont from 'next/font/local';
 import FormOpinion from "@/components/FormOpinion";
 import './style/menu-home.css';
+import './style/open-sans-custom.css';
 
 
 
@@ -52,11 +53,11 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
             <Link href="/estrutura-organizacional" className="text-center hover:text-blue-600">
               <PiTreeStructureFill className="text-6xl mx-auto text-blue-900" />
-              <p className={`${openSans.variable} text-black`}>ESTRUTURA ORGANIZACIONAL</p>
+              <p className= "open-sans-custom text-black">ESTRUTURA ORGANIZACIONAL</p>
             </Link>
             <Link href="/recursos-humanos" className="text-center">
               <FaUsers className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className={`${openSans.variable} text-black`}>RECURSOS HUMANOS</p>
+              <p className="open-sans-custom text-black">RECURSOS HUMANOS</p>
             </Link>
             <Link href="/legislacao" className="text-center hover:text-blue-600">
               <FaBalanceScale className="text-6xl mx-auto mb-1 text-blue-900" />
