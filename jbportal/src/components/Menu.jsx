@@ -41,15 +41,22 @@ const Menu = () => {
               rel="stylesheet"
             />
           </div>
-
           {/* Top Menu */}
           <div className="top-menu fixed top-0 w-full z-50 bg-[#003470] p-1.5 flex justify-center lg:justify-between">
-            <div className="icones flex ml-10 gap-5">
-              <i className="ri-twitter-x-line text-white text-[17px]"></i>
-              <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
-              <i className="ri-instagram-line text-white text-[17px]"></i>
-              <i className="ri-youtube-fill text-white text-[17px]"></i>
-            </div>
+         <div className="icones flex ml-10 gap-5">
+          <a href="https://twitter.com/jaboataoonline" target="_blank" rel="noopener noreferrer">
+           <i className="ri-twitter-x-line text-white text-[17px]"></i>
+           </a>
+           <a href="https://www.facebook.com/PrefeituradoJaboatao" target="_blank" rel="noopener noreferrer">
+          <i className="ri-facebook-circle-fill text-white text-[17px]"></i>
+           </a>
+          <a href="https://www.instagram.com/prefjaboatao/" target="_blank" rel="noopener noreferrer">
+          <i className="ri-instagram-line text-white text-[17px]"></i>
+          </a>
+          <a href="https://www.youtube.com/user/prefeiturajaboatao/videos" target="_blank" rel="noopener noreferrer">
+          <i className="ri-youtube-fill text-white text-[17px]"></i>
+          </a>
+          </div>
             <ul className="menu-topo hidden lg:flex gap-3 mr-11 font-open-sans">
               <li className="nav-topo">
                 <a
@@ -149,7 +156,7 @@ const Menu = () => {
                   alt="Logo do Menu"
                   width={749}
                   height={190}
-                  className="w-[255px] h-[64px]"
+                  className="w-[260px] h-[64px]"
                 />
               </a>
 
@@ -172,7 +179,7 @@ const Menu = () => {
                   >
                     ESTRUTURA ORGANIZACIONAL
                   </a>
-                  {dropdowns.institucional && (
+                  {/* {dropdowns.institucional && (
                     <ul className="absolute left-0 w-48 bg-[#2170B5] text-[#ffffff] shadow-lg">
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
                         <a href="#" style={{ fontFamily: 'Open Sans, sans-serif' }} className="block px-4 py-4">
@@ -185,7 +192,7 @@ const Menu = () => {
                         </a>
                       </li>
                     </ul>
-                  )}
+                  )} */}
                 </li>
                 <li
                   className="nav-item relative"
@@ -205,32 +212,32 @@ const Menu = () => {
                           AVALIAÇÃO DE SERVIÇOS/PESQUISA DE SATISFAÇÃO
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           CARTA DE SERVIÇOS
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           ATENDIMENTO AO PÚBLICO
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           CONSELHO DE USUÁRIOS
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]    border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           PERGUNTAS FREQUENTES
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           TAMOJUNTO CONSULTA POPULAR
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           SERVIÇOS ONLINE PARA O CIDADÃO
                         </a>
@@ -251,32 +258,32 @@ const Menu = () => {
                   </a>
                   {dropdowns.secretarias && (
                     <ul className="absolute left-0 w-48 bg-[#2170B5] text-[#ffffff] shadow-lg">
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           APRESENTAÇÃO - LAI / ENDEREÇO
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           RELATÓRIO ESTATÍSTICO
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           ROL DE DOCUMENTOS - GRAU DE SIGILO
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           ROL DE INFORMAÇÕES DESCLASSIFICADAS
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           PERGUNTAS FREQUENTES - LAI
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           AUTORIDADE DE <br /> MONITORAMENTO: <br /> LORENA VENTURA (81) 99422-5177<br />E-MAIL:
                           OUVIDORIA@JABOATAO.<br /> PE.GOV.BR
@@ -303,12 +310,12 @@ const Menu = () => {
                           ENCARREGADO: <br /> CAROLINA DE FREITAS PEREIRA <br /> (81) 31349293 <br /> E-MAIL:<br /> CAROLINA.PEREIRA@JAB<br />OATAO.PE.GOV.BR
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           REGULAMENTAÇÃO DE POLÍTICA DE PRIVACIDADE DE DADOS
                         </a>
                       </li>
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
                         <a href="#" className="block px-4 py-4">
                          CONTATO: <br /> (81) 99455-5177 <br /> ATENDIMENTO DE 8H ÀS 14H
                         </a>
@@ -329,7 +336,7 @@ const Menu = () => {
                   </a>
                   {dropdowns.lei && (
                      <ul className="absolute left-0 w-48 bg-[#2170B5] text-[#ffffff] shadow-lg">
-                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
+                      <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  transition duration-200">
                         <a href="#" className="block px-4 py-4">
                           REGULAMENTAÇÃO DO <br /> GOVERNO DIGITAL
                         </a>

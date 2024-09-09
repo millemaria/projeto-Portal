@@ -35,7 +35,7 @@ const FormOpinion = () => {
                             className='mr-4'
                         />
                         <fieldset>
-                            <legend className="text-lg text-blue-800 font-semibold">Regionais *</legend>
+                            <legend className="text-lg text-blue-800 font-semibold">Regionais <span className="text-red-600">*</span></legend>
                             <div className="mt-4 space-y-2 text-left">
                                 {regionalData.map((regional) => (
                                     <label key={regional} className="block">
@@ -62,7 +62,7 @@ const FormOpinion = () => {
                             className='mr-4'
                         />
                         <fieldset>
-                            <legend className="text-lg text-blue-800 font-semibold">Faixa Etária *</legend>
+                            <legend className="text-lg text-blue-800 font-semibold">Faixa Etária <span className="text-red-600">*</span></legend>
                             <div className="mt-4 space-y-2 text-left">
                                 {faixaEtariaData.map((faixa) => (
                                     <label key={faixa} className="block">
