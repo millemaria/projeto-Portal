@@ -420,177 +420,175 @@ const Menu = () => {
                     </ul>
                   )} */}
                 </li>
-                <li className="mb-6">
+                <li className="mb-4">
+                <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault(); // Evita o comportamento padrão do link
+                    toggleDropdown("servicos");
+                  }}
+                  className="flex items-center justify-center hover:text-gray-400 transition-colors duration-300"
+                >
+                  SERVIÇOS
+                  <FaPlus className="ml-2 text-[14px] text-white" />
+                </a>
+                <ul
+                  className={`mt-2 mb-6 text-[13px] leading-3 overflow-hidden transition-all duration-300 ${dropdowns.servicos ? 'max-h-[500px] ease-in' : 'max-h-0 ease-out'}`}
+                >
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      AVALIAÇÃO DE SERVIÇOS/PESQUISA DE SATISFAÇÃO
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      CARTA DE SERVIÇOS
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      ATENDIMENTO AO PÚBLICO
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      CONSELHO DE USUÁRIOS
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      PERGUNTAS FREQUENTES
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      TAMOJUNTO CONSULTA POPULAR
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      SERVIÇOS ONLINE PARQA O CIDADÃO
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className="mb-6">
                   <a
                     href="#"
-                    onClick={() => toggleDropdown("cidade")}
-                    className="flex items-center justify-center hover:text-gray-400 transition-colors duration-300"
-                  >
-                   SERVIÇOS
-                    <FaPlus className="ml-2 text-[14px] text-white " />
-                  </a>
-                  {dropdowns.cidade && (
-                    <ul className="mt-2 mb-6 text-[13px] leading-3">
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                          AVALIAÇÃO DE SERVIÇOS/PESQUISA DE SATISFAÇÃO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                          CARTA DE SERVIÇOS
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                        ATENDIMENTO AO PÚBLICO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                        CONSELHO DE USUÁRIOS
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                        PERGUNTAS FREQUENTES
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                        TAMOJUNTO CONSULTA POPULAR
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                        SERVIÇOS ONLINE PARQA O CIDADÃO
-                        </a>
-                      </li>
-                    </ul>
-                  )}
-                </li>
-                <li className="mb-6">
-                  <a
-                    href="#"
-                    onClick={() => toggleDropdown("alai")}
-                    className="flex items-center hover:text-gray-400 transition-colors duration-300 justify-center "
+                    onClick={(e) => {
+                      e.preventDefault(); // Evita o comportamento padrão do link
+                      toggleDropdown("alai");
+                    }}
+                    className="flex items-center hover:text-gray-400 transition-colors duration-300 justify-center"
                   >
                     A LAI
                     <FaPlus className="ml-2 text-[14px] hover:text-gray-400 transition-colors duration-300 text-white" />
                   </a>
-                  {dropdowns.alai && (
-                    <ul className="mt-1 mb-6 text-[13px] leading-3">
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                         APRESENTAÇÃO - LAI / ENDEREÇO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                          RELATÓRIO ESTATÍSTICO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                          ROL DE DOCUMENTOS - GRAU DE SIGILO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                  <ul
+                    className={`mt-1 mb-6 text-[13px] leading-3 overflow-hidden transition-all duration-300 ${dropdowns.alai ? 'max-h-[500px] ease-in' : 'max-h-0 ease-out'}`}
+                  >
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                        APRESENTAÇÃO - LAI / ENDEREÇO
+                      </a>
+                    </li>
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                        RELATÓRIO ESTATÍSTICO
+                      </a>
+                    </li>
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                        ROL DE DOCUMENTOS - GRAU DE SIGILO
+                      </a>
+                    </li>
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
                         ROL DE INFORMAÇÕES DESCLASSIFICADAS
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      </a>
+                    </li>
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
                         PERGUNTAS FREQUENTES - LAI
-                        </a>
-                      </li>
-                      <li className="mb-3 hover:text-gray-400 transition-colors duration-300">
-                      <a href="#"  onClick={toggleMenu} className="block ">
+                      </a>
+                    </li>
+                    <li className="mb-3 hover:text-gray-400 transition-colors duration-300">
+                      <a href="#" onClick={toggleMenu} className="block">
                         AUTORIDADE DE MONITORAMENTO: <br />
                         <span className="mt-3 inline-block">
-                          LORENA VENTURA (81) 99422-5177 <br /></span>
-                          <span className="mt-3 inline-block">
-                           E-MAIL: OUVIDORIA@JABOATAO.PE.GOV.BR
+                          LORENA VENTURA (81) 99422-5177 <br />
+                        </span>
+                        <span className="mt-3 inline-block">
+                          E-MAIL: OUVIDORIA@JABOATAO.PE.GOV.BR
                         </span>
                       </a>
                     </li>
-
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
                         PEDIDO DE ACESSO À INFORMAÇÃO
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      </a>
+                    </li>
+                    <li className="mb-3">
+                      <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
                         REGULAMENTAÇÃO MUNICIPAL
-                        </a>
-                      </li>
-                    </ul>
-                  )}
+                      </a>
+                    </li>
+                  </ul>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="#"
-                    onClick={() => toggleDropdown("lgpd")}
-                    className="flex items-center hover:text-gray-400 transition-colors duration-300 justify-center "
-                  >
-                    LGPD
-                    <FaPlus className="ml-2 text-[14px] hover:text-gray-400 transition-colors duration-300 text-white" />
+                <a
+                  href="#"
+                  onClick={() => toggleDropdown("lgpd")}
+                  className="flex items-center hover:text-gray-400 transition-colors duration-300 justify-center"
+                >
+                  LGPD
+                  <FaPlus className="ml-2 text-[14px] hover:text-gray-400 transition-colors duration-300 text-white" />
+                </a>
+                <ul
+                  className={`mt-1 mb-6 text-[13px] leading-3 overflow-hidden transition-all duration-300 ${dropdowns.lgpd ? 'max-h-[500px] ease-in' : 'max-h-0 ease-out'}`}
+                >
+                  <li className="mb-3 hover:text-gray-400 transition-colors duration-300">
+                    <a href="#" onClick={toggleMenu} className='block'>
+                      ENCARREGADO: <br />
+                      <span className="mt-3 inline-block">CAROLINA DE FREITAS PEREIRA</span> <br />
+                      <span className="mt-3 inline-block">FONE: (81) 3134-9293</span><br />
+                      <span className='mt-3 inline-block'>E-MAIL: CAROLINA.PEREIRA@JABOATAO.PE.GOV.BR</span>
+                    </a>
+                  </li>
+                  <li className="mb-3">
+                    <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                      REGULAMENTAÇÃO DE POLÍTICA DE PRIVACIDADE E PROTEÇÃO DE DADOS
+                    </a>
+                  </li>
+                  <li className="mb-3 hover:text-gray-400 transition-colors duration-300">
+                    <a href="#" onClick={toggleMenu}>
+                      <span className="mt-3 inline-block">CONTATO: </span><br />
+                      <span className="mt-3 inline-block">(81) 99422-5177 </span><br />
+                      <span className="mt-3 inline-block">ATENDIMENTO DE 8H ÀS 14H</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className="mb-6">
+              <a
+                href="#"
+                onClick={() => toggleDropdown("lei")}
+                className="flex items-center hover:text-gray-400 transition-colors duration-300 justify-center"
+              >
+                LEI 14.129/2021
+                <FaPlus className="ml-2 text-[14px] hover:text-gray-400 transition-colors duration-300 text-white" />
+              </a>
+              <ul
+                className={`mt-2 mb-6 text-[13px] leading-3 overflow-hidden transition-all duration-300 ${dropdowns.lei ? 'max-h-[500px] ease-in' : 'max-h-0 ease-out'}`}
+              >
+                <li className="mb-3">
+                  <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
+                    REGULAMENTAÇÃO DO GOVERNO DIGITAL
                   </a>
-                  {dropdowns.lgpd && (
-                    <ul className="mt-1 mb-6 text-[13px] leading-3">
-                      <li className="mb-3 hover:text-gray-400 transition-colors duration-300">
-                        <a href="#" onClick={toggleMenu}
-                        className='block '>
-                         ENCARREGADO: <br />
-                         <span className="mt-3 inline-block"> 
-                         CAROLINA DE FREITAS PEREIRA</span>  <br/>
-                         <span className="mt-3 inline-block">
-                         FONE: (81) 3134-9293 </span><br/>
-                         <span className='mt-3 inline-block'>
-                          E-MAIL: CAROLINA.PEREIRA@JABOATAO.PE.GOV.BR
-                        </span>
-                        </a>
-                      </li>
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                          REGULAMENTAÇÃO DE POLÍTICA DE PRIVACIDADE E PROTEÇÃO DE DADOS
-                        </a>
-                      </li>
-                      <li className="mb-3 hover:text-gray-400 transition-colors duration-300">
-                        <a href="#" onClick={toggleMenu}>
-                          <span className="mt-3 inline-block">
-                          CONTATO: </span><br/>
-                          <span className="mt-3 inline-block">
-                          (81) 99422-5177 </span><br/> 
-                          <span className="mt-3 inline-block">
-                          ATENDIMENTO DE 8H ÀS 14H
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  )}
                 </li>
-                <li className="mb-6">
-                  <a
-                    href="#"
-                    onClick={() => toggleDropdown("lei")}
-                    className="flex hover:text-gray-400 transition-colors duration-300 items-center justify-center"
-                  >
-                    LEI 14.129/2021
-                    <FaPlus className="ml-2 text-[14px] hover:text-gray-400 transition-colors duration-300 text-white" />
-                  </a>
-                  {dropdowns.lei && (
-                    <ul className="mt-2 mb-6 text-[13px] leading-3">
-                      <li className="mb-3">
-                        <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
-                          REGULAMENTAÇÃO DO GOVERNO DIGITAL
-                        </a>
-                      </li>
-                    </ul>
-                  )}
-                </li>
+              </ul>
+            </li>
+
                 <li className="mb-6">
                   <a href="#" className='hover:text-gray-400 transition-colors duration-300' onClick={toggleMenu}>
                     FAQ 

@@ -28,88 +28,89 @@ const FormOpinion = () => {
             </h2>
 
             <form>
-                <div className="flex justify-between text-center space-x-8">
-                    {/* Regionais */}
-                    <div className="flex mx-8 items-center">
-                        <Image
-                            src="/images/regionais-1.webp" // Caminho relativo dentro do diretório public
-                            alt="Ícone de Regionais"
-                            width={150}
-                            height={150}
-                            className='mr-4'
-                        />
-                        <fieldset>
-                            <legend className="text-lg open-sans-custom-form font-semibold">Regionais <span className="text-red-600">*</span></legend>
-                            <div className="mt-4 mx-5 col-auto space-y-2 open-sans-custom-input-radio text-left">
-                                {regionalData.map((regional) => (
-                                    <label key={regional} className="block">
-                                        <input
-                                            type="radio"
-                                            name="satisfaction"
-                                            className="mr-2 focus:ring-blue-800"
-                                            required
-                                        />
-                                        {regional}
-                                    </label>
-                                ))}
+            <div className="flex flex-col md:flex-row justify-between text-center space-y-8 md:space-y-0 md:space-x-8">
+            {/* Regionais */}
+            <div className="flex items-start w-full md:w-1/3">
+                <Image
+                    src="/images/regionais-1.png" 
+                    alt="Ícone de Regionais"
+                    width={150} // Alterado para 150
+                    height={150}
+                    className='mr-4'
+                />
+                <fieldset className="flex-1">
+                    <legend className="text-lg open-sans-custom-form font-semibold">Regionais <span className="text-red-600">*</span></legend>
+                    <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
+                        {regionalData.map((regional, index) => (
+                            <div key={index} className="flex items-center space-x-2">
+                                <input
+                                    type="radio"
+                                    name="regional"
+                                    className="focus:ring-blue-800"
+                                    required
+                                />
+                                <label className="flex items-center">{regional}</label>
                             </div>
-                        </fieldset>
+                        ))}
                     </div>
+                </fieldset>
+            </div>
 
-                    {/* Faixa Etária */}
-                    <div className="flex mx-8 items-center">
-                        <Image
-                            src="/images/faixa-etaria.webp" // Caminho relativo dentro do diretório public
-                            alt="Ícone de Faixa Etária"
-                            width={150}
-                            height={150}
-                            className='mr-4'
-                        />
-                        <fieldset className='flex'>
-                            <legend className="text-lg open-sans-custom-form font-semibold">Faixa Etária <span className="text-red-600">*</span></legend>
-                            <div className="mt-4 mx-5 col-auto space-y-2 open-sans-custom-input-radio text-left">
-                                {faixaEtariaData.map((faixa) => (
-                                    <label key={faixa} className="block">
-                                        <input
-                                            type="radio"
-                                            name="satisfaction"
-                                            className="mr-2 focus:ring-blue-800"
-                                            required
-                                        />
-                                        {faixa}
-                                    </label>
-                                ))}
+            {/* Faixa Etária */}
+            <div className="flex items-start w-full md:w-1/3">
+                <Image
+                    src="/images/faixa-etaria.webp"
+                    alt="Ícone de Faixa Etária"
+                    width={150} // Alterado para 150
+                    height={150}
+                    className='mr-4'
+                />
+                <fieldset className="flex-1">
+                    <legend className="text-lg open-sans-custom-form font-semibold">Faixa Etária <span className="text-red-600">*</span></legend>
+                    <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
+                        {faixaEtariaData.map((faixa, index) => (
+                            <div key={index} className="flex items-center space-x-2">
+                                <input
+                                    type="radio"
+                                    name="faixa_etaria"
+                                    className="focus:ring-blue-800"
+                                    required
+                                />
+                                <label className="flex items-center">{faixa}</label>
                             </div>
-                        </fieldset>
+                        ))}
                     </div>
+                </fieldset>
+            </div>
 
-                    {/* Satisfação */}
-                    <div className="flex mx-8 items-center">
-                        <Image
-                            src="/images/satisfacao.webp"
-                            alt="Ícone de Satisfação"
-                            width={150}
-                            height={150}
-                            className='mr-4'
-                        />
-                        <fieldset>
-                            <legend className="text-lg open-sans-custom-form font-semibold">Satisfação <span className="text-red-600">*</span></legend>
-                            <div className="mt-5 mx-8 space-y-2 open-sans-custom-input-radio text-left">
-                                {pesquisaSatisfacaoData.map((satisfaction) => (
-                                    <label key={satisfaction} className={`block`}>
-                                        <input
-                                            type="radio"
-                                            name="satisfaction"
-                                            className="mr-2 focus:ring-blue-800"
-                                            required
-                                        />
-                                        {satisfaction}
-                                    </label>
-                                ))}
+            {/* Satisfação */}
+            <div className="flex items-start w-full md:w-1/3">
+                <Image
+                    src="/images/satisfacao.webp"
+                    alt="Ícone de Satisfação"
+                    width={150} // Alterado para 150
+                    height={150}
+                    className='mr-4'
+                />
+                <fieldset className="flex-1">
+                    <legend className="text-lg open-sans-custom-form font-semibold">Satisfação <span className="text-red-600">*</span></legend>
+                    <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
+                        {pesquisaSatisfacaoData.map((satisfaction, index) => (
+                            <div key={index} className="flex items-center space-x-2">
+                                <input
+                                    type="radio"
+                                    name="satisfacao"
+                                    className="focus:ring-blue-800"
+                                    required
+                                />
+                                <label className="flex items-center">{satisfaction}</label>
                             </div>
-                        </fieldset>
+                        ))}
                     </div>
-                </div>
+                </fieldset>
+            </div>
+        </div>
+
 
                 <div className="text-center">
                     <button type="submit" className="bg-blue-800 text-white px-6 py-2 rounded-full font-semibold">
@@ -118,7 +119,8 @@ const FormOpinion = () => {
                 </div>
             </form>
 
-            <h2 className="text-center text-blue-800 text-3xl font-bebas font-bold mb-8 mt-16">
+            <h2 className={`${bebasNeue.variable} text-center text-[#00469f] text-[55px] font-bebas font-semi-bold mb-8 mt-16`}>
+            
                 COMO PODEMOS MELHORAR?
             </h2>
 
