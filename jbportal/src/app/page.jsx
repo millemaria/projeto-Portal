@@ -1,5 +1,6 @@
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import BorderTopInvertido from "@/components/BorderTopInvertido";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ImageSlider from "@/components/ImageSlider";
@@ -293,6 +294,7 @@ export default function Home() {
         </section>
       <BorderTop />
       <FormOpinion />
+      <BorderTopInvertido />
       <Footer />
     </div>
   );
