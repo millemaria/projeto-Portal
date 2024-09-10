@@ -1,0 +1,25 @@
+.open-sans-custom {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #010405;
+  }
+
+.open-sans-custom-form {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #064c9c
+    ;
+  }
+
+.open-sans-custom-input-radio {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #003470
+    ;
+  }
