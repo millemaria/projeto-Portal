@@ -53,31 +53,31 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
             <Link href="/estrutura-organizacional" className="text-center hover:text-blue-600">
               <PiTreeStructureFill className="text-6xl mx-auto text-blue-900" />
-              <p className= "open-sans-custom text-black">ESTRUTURA ORGANIZACIONAL</p>
+              <p className= "open-sans-custom">ESTRUTURA ORGANIZACIONAL</p>
             </Link>
             <Link href="/recursos-humanos" className="text-center">
               <FaUsers className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="open-sans-custom text-black">RECURSOS HUMANOS</p>
+              <p className="open-sans-custom">RECURSOS HUMANOS</p>
             </Link>
             <Link href="/legislacao" className="text-center hover:text-blue-600">
               <FaBalanceScale className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">LEGISLAÇÃO</p>
+              <p className="open-sans-custom">LEGISLAÇÃO</p>
             </Link>
             <Link href="/concursos-selecoes" className="text-center hover:text-blue-600">
               <FaScroll className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">CONCURSOS E SELEÇÕES</p>
+              <p className="open-sans-custom">CONCURSOS E SELEÇÕES</p>
             </Link>
             <Link href="/bens-patrimoniais" className="text-center hover:text-blue-600">
               <FaBuilding className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">BENS PATRIMONIAIS</p>
+              <p className="open-sans-custom">BENS PATRIMONIAIS</p>
             </Link>
             <Link href="/previdencia-municipal" className="text-center hover:text-blue-600">
               <FaCommentsDollar className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">PREVIDÊNCIA MUNICIPAL</p>
+              <p className="open-sans-custom">PREVIDÊNCIA MUNICIPAL</p>
             </Link>
             <Link href="/orientacoes-recomendacoes" className="text-center hover:text-blue-600">
               <FaInfoCircle className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">ORIENTAÇÕES E RECOMENDAÇÕES</p>
+              <p className="open-sans-custom">ORIENTAÇÕES E RECOMENDAÇÕES</p>
             </Link>
           </div>
         </div>
@@ -92,31 +92,31 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
             <Link href="/receitas" className="text-center hover:text-blue-600">
               <BsCurrencyDollar className="text-6xl mx-auto text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RECEITAS</p>
+              <p className="open-sans-custom">RECEITAS</p>
             </Link>
             <Link href="/despesas" className="text-center hover:text-blue-600">
               <BsCreditCard className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>DESPESAS</p>
+              <p className="open-sans-custom">DESPESAS</p>
             </Link>
             <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
               <BsFillFileEarmarkCheckFill className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RENÚNCIAS DE RECEITA</p>
+              <p className="open-sans-custom">RENÚNCIAS DE RECEITA</p>
             </Link>
             <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
               <FaCalendarAlt className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>PAGAMENTO POR ORDEM CRONOLÓGICA</p>
+              <p className="open-sans-custom">PAGAMENTO POR ORDEM CRONOLÓGICA</p>
             </Link>
             <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
               <BsFillPersonBadgeFill className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RETENÇÕES DE IMPOSTOS</p>
+              <p className="open-sans-custom">RETENÇÕES DE IMPOSTOS</p>
             </Link>
             <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
               <IoIosAirplane className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>DIÁRIAS E PASSAGENS</p>
+              <p className="open-sans-custom">DIÁRIAS E PASSAGENS</p>
             </Link>
             <Link href="/infrações-transito" className="text-center hover:text-blue-600">
               <FaTrafficLight className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black" style={{ fontFamily: 'Open Sans, sans-serif' }}>RECEITAS E DESPESAS - INFRAÇÕES DE TRÂNSITO</p>
+              <p className="open-sans-custom">RECEITAS E DESPESAS - INFRAÇÕES DE TRÂNSITO</p>
             </Link>
           </div>
         </div>
@@ -130,11 +130,11 @@ export default function Home() {
           <div className="flex justify-center space-x-16  mb-8">
             <Link href="/licitaçoes" className="text-center hover:text-blue-600">
               <GiTakeMyMoney className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">LICITAÇÕES</p>
+              <p className="open-sans-custom">LICITAÇÕES</p>
             </Link>
             <Link href="/cONTRATOS" className="text-center hover:text-blue-600">
               <BsCreditCard className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">CONTRATOS</p>
+              <p className="open-sans-custom">CONTRATOS</p>
             </Link>
           </div>
         </div>
@@ -148,23 +148,23 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center  mb-8">
             <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
               <FaHandshake className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">TRANSFERÊNCIAS <br />REALIZADAS / TERMOS DE PARCERIA</p>
+              <p className="open-sans-custom">TRANSFERÊNCIAS <br />REALIZADAS / TERMOS DE PARCERIA</p>
             </Link>
             <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
               <GrDocumentTransfer className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">TRANSFERÊNCIAS< br /> RECEBIDAS/CONVÊNIOS</p>
+              <p className="open-sans-custom">TRANSFERÊNCIAS< br /> RECEBIDAS/CONVÊNIOS</p>
             </Link>
             <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
               <RiGovernmentFill className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">EMENDAS<br /> PARLAMENTARES</p>
+              <p className="open-sans-custom">EMENDAS<br /> PARLAMENTARES</p>
             </Link>
             <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
               <TbWorld className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">TERCEIRO<br /> SETOR</p>
+              <p className="open-sans-custom">TERCEIRO<br /> SETOR</p>
             </Link>
             <Link href="/infrações-transito" className="text-center hover:text-blue-600">
               <FaMoneyBill className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">DUODÉCIMO</p>
+              <p className="open-sans-custom">DUODÉCIMO</p>
             </Link>
           </div>
         </div>
@@ -179,15 +179,15 @@ export default function Home() {
           <div className="flex justify-center space-x-16  mb-8">
             <Link href="/licitaçoes" className="text-center hover:text-blue-600">
               <FaCity className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">PLANEJAMENTO MUNICPAL</p>
+              <p className="open-sans-custom">PLANEJAMENTO MUNICPAL</p>
             </Link>
             <Link href="/cONTRATOS" className="text-center hover:text-blue-600">
               <FaCalculator className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">PRESTAÇÃO DE CONTAS</p>
+              <p className="open-sans-custom">PRESTAÇÃO DE CONTAS</p>
             </Link>
             <Link href="/cONTRATOS" className="text-center hover:text-blue-600">
               <MdFamilyRestroom className="text-6xl mx-auto mb-1 text-blue-900" />
-              <p className="text-black">PROGRAMAS E AÇÕES</p>
+              <p className="open-sans-custom">PROGRAMAS E AÇÕES</p>
             </Link>
           </div>
         </div>
@@ -201,61 +201,61 @@ export default function Home() {
             <Link href="/projetos-municipais">
               <div>
                 <FaBookReader className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">PROJETOS MUNICIPAIS</p>
+                <p className="open-sans-custom">PROJETOS MUNICIPAIS</p>
               </div>
             </Link>
             <Link href="/saude">
               <div>
                 <MdLocalHospital className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">SAÚDE</p>
+                <p className="open-sans-custom">SAÚDE</p>
               </div>
             </Link>
             <Link href="/educacao">
               <div>
                 <FaPencilRuler className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">EDUCAÇÃO</p>
+                <p className="open-sans-custom">EDUCAÇÃO</p>
               </div>
             </Link>
             <Link href="/acompanhamento-de-obras">
               <div>
                 <FaHelmetSafety className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">ACOMPANHAMENTO DE OBRAS</p>
+                <p className="open-sans-custom">ACOMPANHAMENTO DE OBRAS</p>
               </div>
             </Link>
             <Link href="/conselhos-municipais">
               <div>
                 <FaIdCard className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">CONSELHOS MUNICIPAIS</p>
+                <p className="open-sans-custom">CONSELHOS MUNICIPAIS</p>
               </div>
             </Link>
             <Link href="/ppp">
               <div>
                 <FaHandsHelping className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">PPP - PARCERIAS PÚBLICO-PRIVADA</p>
+                <p className="open-sans-custom">PPP - PARCERIAS PÚBLICO-PRIVADA</p>
               </div>
             </Link>
             <Link href="/auxilio-moradia">
               <div>
                 <RiHomeHeartFill className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">AUXÍLIO MORADIA</p>
+                <p className="open-sans-custom">AUXÍLIO MORADIA</p>
               </div>
             </Link>
             <Link href="/lei-paulo-gustavo">
               <div>
                 <FaMasksTheater className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">LEI PAULO GUSTAVO</p>
+                <p className="open-sans-custom">LEI PAULO GUSTAVO</p>
               </div>
             </Link>
             <Link href="/lei-aldir-blanc">
               <div>
                 <FaNewspaper className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">LEI ALDIR BLANC</p>
+                <p className="open-sans-custom">LEI ALDIR BLANC</p>
               </div>
             </Link>
             <Link href="/fundo-municipal-meio-ambiente">
               <div>
                 <FaTree className="text-blue-900 text-6xl mx-auto mb-2" />
-                <p className="text-sm font-semibold">FUNDO MUNICIPAL DE MEIO AMBIENTE</p>
+                <p className="open-sans-custom">FUNDO MUNICIPAL DE MEIO AMBIENTE</p>
               </div>
             </Link>
           </div>
@@ -270,23 +270,23 @@ export default function Home() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  text-center  mb-8">
               <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
                 <FaFolderOpen className="text-6xl mx-auto mb-1 text-blue-900" />
-                <p className="text-black">DADOS<br /> ABERTOS</p>
+                <p className="open-sans-custom">DADOS<br /> ABERTOS</p>
               </Link>
               <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
                 <FaDigitalOcean className="text-6xl mx-auto mb-1 text-blue-900" />
-                <p className="text-black">GOVERNO< br />DIGITAL</p>
+                <p className="open-sans-custom">GOVERNO< br />DIGITAL</p>
               </Link>
               <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
                 <FaLock className="text-6xl mx-auto mb-1 text-blue-900" />
-                <p className="text-black">LGPD</p>
+                <p className="open-sans-custom">LGPD</p>
               </Link>
               <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
                 <FaHeadset className="text-6xl mx-auto mb-1 text-blue-900" />
-                <p className="text-black">OUVIDORIA</p>
+                <p className="open-sans-custom">OUVIDORIA</p>
               </Link>
               <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
                 <BsFillInfoCircleFill className="text-6xl mx-auto mb-1 text-blue-900" />
-                <p className="text-black">ACESSO À <br /> INFORMAÇÃO - SIC</p>
+                <p className="open-sans-custom">ACESSO À <br /> INFORMAÇÃO - SIC</p>
               </Link>
             </div>
           </div>
