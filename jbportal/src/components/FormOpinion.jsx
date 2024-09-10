@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import localFont from 'next/font/local';
-import BorderTopInvertido from './BorderTopInvertido';
+;
 
 const bebasNeue = localFont({
     src: '../utils/Bebas_Neue/BebasNeue-Regular.ttf',

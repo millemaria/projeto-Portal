@@ -17,6 +17,7 @@ module.exports = {
         bebas: 'var(--font-bebas)',
         roboto: 'var(--font-roboto)',
         openSans: 'var(--font-open-sans)',
+        hebrew: 'var(--font-hebrew)', 
       },
     },
   },

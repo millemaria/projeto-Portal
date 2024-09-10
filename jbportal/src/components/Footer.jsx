@@ -1,4 +1,11 @@
+import React from 'react';
+import localFont from 'next/font/local'
 import Image from "next/image";
+
+const hebrew = localFont({
+  src: '../utils/open-sans-hebrew-condensed/OpenSansHebrewCondensed-Regular.ttf',
+  variable: '--font-hebrew',
+});
 
 const Footer = () => {
   return (
@@ -6,10 +13,10 @@ const Footer = () => {
       <footer className="footer-principal">
         <div className="footer">
           <div className="footer-column1">
-            <h3 className="footer-title">MAPA DO SITE</h3>
+          <h3 className="footer-title font-hebrew ">MAPA DO SITE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
-              <li><a href="http://example.com/mapa-estrategia">A LAI</a></li>
+              <li><a href="http://example.com/mapa-estrategia" className='font-hebrew'>A LAI</a></li>
               <li><a href="http://example.com/portal-transparencia">RECEITAS</a></li>
               <li><a href="http://example.com/estrutura-organizacional">DESPESAS</a></li>
               <li><a href="http://example.com/galeria-elogios">LICITAÇÕES</a></li>
