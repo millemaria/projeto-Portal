@@ -8,6 +8,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import { BsBuildings, BsCashStack, BsFileText, BsPeople, BsBarChart, BsEye, BsDatabase, BsSearch, BsInfoCircle } from "react-icons/bs";
 import BorderTop from './BorderTop';
 import localFont from 'next/font/local';
+import Image from 'next/image';
+import "../app/style/styles.css"
 
 
 const roboto = localFont({
@@ -23,6 +25,7 @@ const openSans = localFont({
 const DynamicSlider = dynamic(() => import('react-slick'), {
   ssr: false,
 });
+
 
 export default function ImageSlider() {
   const settings = {
@@ -52,7 +55,13 @@ export default function ImageSlider() {
       <DynamicSlider {...settings}>
 
         <div className="relative h-3">
-          <img src="/images/carta.png" alt="Slide 1" />
+          {/* <img src="/images/carta.png" alt="Slide 1" /> */}
+          <Image 
+          src="/images/carta.png" alt="Slide 1" 
+          width={1920} 
+          height={1080} 
+          sizes="(max-width: 1920px) 100vw"
+          srcSet="/images/responsive-mobile/carta-mobile.png 300w" />
           <div className="absolute inset-0 bg-[#000] opacity-20"></div>
         </div>
         <div className="relative h-4">
@@ -107,7 +116,7 @@ export default function ImageSlider() {
       <BsInfoCircle className="text-5xl text-white transition-transform duration-300 group-hover:-translate-y-2" />
       <p style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-1 text-xs text-white text-center transition-transform duration-300 group-hover:-translate-y-2">SIC</p>
     </a>
-    <a href="#radar" className="flex flex-col items-center m-2 transition-transform group-hover:-translate-y-2">
+    <a href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html" className="flex flex-col items-center m-2 transition-transform group-hover:-translate-y-2">
       <img src="/images/radar.svg" alt="Radar" className="w-34 h-14" />
       <p style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-1 text-xs text-white text-center transition-transform duration-300 group-hover:-translate-y-2">Radar da Transparência Pública</p>
     </a>
