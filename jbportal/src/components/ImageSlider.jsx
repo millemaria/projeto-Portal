@@ -6,7 +6,6 @@ import dynamic from 'next/dynamic';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { BsBuildings, BsCashStack, BsFileText, BsPeople, BsBarChart, BsEye, BsDatabase, BsSearch, BsInfoCircle } from "react-icons/bs";
-import BorderTop from './BorderTop';
 import localFont from 'next/font/local';
 import Image from 'next/image';
 import "../app/style/styles.css"

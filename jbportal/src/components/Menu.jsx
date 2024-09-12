@@ -571,7 +571,7 @@ const Menu = () => {
               </li>
               <li className="mb-6">
               <a
-                href="#"
+                href=""
                 onClick={() => toggleDropdown("lei")}
                 className="flex items-center hover:text-gray-400 transition-colors duration-300 justify-center"
               >

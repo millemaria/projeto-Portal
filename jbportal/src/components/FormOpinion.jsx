@@ -39,21 +39,22 @@ const FormOpinion = () => {
                     className='mr-4'
                 />
                 <fieldset className="flex-1">
-                    <legend className="text-lg open-sans-custom-form font-semibold">Regionais <span className="text-red-600">*</span></legend>
-                    <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
-                        {regionalData.map((regional, index) => (
-                            <div key={index} className="flex items-center space-x-2">
-                                <input
-                                    type="radio"
-                                    name="regional"
-                                    className="focus:ring-blue-800"
-                                    required
-                                />
-                                <label className="flex items-center">{regional}</label>
-                            </div>
-                        ))}
+                <legend className="text-lg open-sans-custom-form font-semibold">Regionais <span className="text-red-600">*</span></legend>
+                <div className="mt-4 open-sans-custom-input-radio text-left">
+                    {regionalData.map((regional, index) => (
+                    <div key={index} className="flex items-center space-x-2">
+                        <input
+                        type="radio"
+                        name="regional"
+                        className="focus:ring-blue-800 shrink-0"
+                        required
+                        />
+                        <label className="whitespace-nowrap">{regional}</label>
                     </div>
+                    ))}
+                </div>
                 </fieldset>
+
             </div>
 
             {/* Faixa Etária */}
@@ -73,10 +74,10 @@ const FormOpinion = () => {
                                 <input
                                     type="radio"
                                     name="faixa_etaria"
-                                    className="focus:ring-blue-800"
+                                    className="focus:ring-blue-800 shrink-0"
                                     required
                                 />
-                                <label className="flex items-center">{faixa}</label>
+                                <label className="whitespace-nowrap">{faixa}</label>
                             </div>
                         ))}
                     </div>
@@ -93,17 +94,17 @@ const FormOpinion = () => {
                     className='mr-4'
                 />
                 <fieldset className="flex-1">
-                    <legend className="text-lg open-sans-custom-form font-semibold">Satisfação <span className="text-red-600">*</span></legend>
+                    <legend className="text-lg open-sans-custom-form font-semibold mr-6">Satisfação <span className="text-red-600">*</span></legend>
                     <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
                         {pesquisaSatisfacaoData.map((satisfaction, index) => (
                             <div key={index} className="flex items-center space-x-2">
                                 <input
                                     type="radio"
                                     name="satisfacao"
-                                    className="focus:ring-blue-800"
+                                    className="focus:ring-blue-800 shrink-0"
                                     required
                                 />
-                                <label className="flex items-center">{satisfaction}</label>
+                                <label className="whitespace-nowrap">{satisfaction}</label>
                             </div>
                         ))}
                     </div>
@@ -112,8 +113,8 @@ const FormOpinion = () => {
         </div>
 
 
-                <div className="text-center">
-                    <button type="submit" className="bg-blue-800 text-white px-6 py-2 rounded-full font-semibold">
+                <div className="flex justify-center mt-16">
+                    <button type="submit" className="bg-blue-600 hover-bg-blue-800 text-white px-6 py-2 rounded-full font-semibold">
                         ENVIAR
                     </button>
                 </div>
