@@ -5,7 +5,7 @@ export default function Teste() {
     <div>
         <ModelPage 
         titulo={"ESTRUTURA ORGANIZACIONAL"}
-        subtitulo={"HOME » ESTRUTURA ORGANIZACIONAL"}
+        subtitulo={"Íncio » ESTRUTURA ORGANIZACIONAL"}
         />
     </div>
     
