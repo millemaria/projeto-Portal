@@ -6,7 +6,6 @@
 
 @media (min-width: 1500px) {
     .footer {
-      font-family: 'Open Sans', sans-serif;
       display: flex;
       justify-content: space-between; /* Garante que as colunas se espalhem uniformemente */
       align-items: stretch; /* Faz com que as colunas tenham a mesma altura */
@@ -44,7 +43,6 @@
     font-size: 18px;
     margin-top: 10px;
     font-weight: bold;
-    font-family: "OpenSans", sans-serif;
     }
     
     .footer-border {
@@ -69,7 +67,6 @@
     }
     
     .parte-branca {
-    font-family: "Open Sans", sans-serif;
     font-style: italic;
     width: 100%;
     display: flex;
@@ -106,7 +103,6 @@
     .footer-list a {
     text-decoration: none;
     color: inherit; /* Herda a cor do texto do pai */
-    font-family: "OpenSans", sans-serif;
     }
     
     .footer-list a:hover {
@@ -116,7 +112,6 @@
     .footer-title {
     font-weight: bold;
     font-size: 1.2rem;
-    font-family: "OpenSans", sans-serif;
     }
     
     .footer-column3 .footer-title a {
@@ -139,7 +134,6 @@
     
     @media (max-width:1499px) and ( min-width: 768px) {
       .footer {
-        font-family: 'Open Sans', sans-serif;
         display: flex;
         justify-content: space-between; /* Garante que as colunas se espalhem uniformemente */
         align-items: stretch; /* Faz com que as colunas tenham a mesma altura */
@@ -169,7 +163,6 @@
       font-size: 18px;
       margin-top: 10px;
       font-weight: bold;
-      font-family: "OpenSans", sans-serif;
       }
       
       .footer-border {
@@ -194,7 +187,6 @@
       }
       
       .parte-branca {
-        font-family: "Open Sans", sans-serif;
         font-style: italic;
         width: 100%;
         display: flex;
@@ -228,7 +220,6 @@
       .footer-list a {
       text-decoration: none;
       color: inherit; /* Herda a cor do texto do pai */
-      font-family: "OpenSans", sans-serif;
       }
       
       .footer-list a:hover {
@@ -238,7 +229,6 @@
       .footer-title {
       font-weight: bold;
       font-size: 1.2rem;
-      font-family: "OpenSans", sans-serif;
       }
       
       .footer-column3 .footer-title a {
@@ -261,7 +251,6 @@
     
     @media (max-width: 768px) {
       .footer {
-        font-family: 'Open Sans', sans-serif;
         padding: 90px 20px; /* Padding horizontal ajustado para responsividade */
         background-color: #184277;
         color: #fff;
@@ -286,7 +275,6 @@
       font-size: 18px;
       margin-top: 10px;
       font-weight: bold;
-      font-family: "OpenSans", sans-serif;
       }
       
       .footer-border {
@@ -298,6 +286,7 @@
       .footer-list {
       list-style: none;
       padding: 0;
+      
       }
       
       .footer-list li {
@@ -311,7 +300,6 @@
       }
       
       .parte-branca {
-        font-family: "Open Sans", sans-serif;
         font-style: italic;
         width: 100%;
         display: flex;
@@ -345,7 +333,6 @@
       .footer-list a {
       text-decoration: none;
       color: inherit; /* Herda a cor do texto do pai */
-      font-family: "OpenSans", sans-serif;
       }
       
       .footer-list a:hover {
@@ -355,7 +342,6 @@
       .footer-title {
       font-weight: bold;
       font-size: 1.2rem;
-      font-family: "OpenSans", sans-serif;
       }
       
       .footer-column3 .footer-title a {

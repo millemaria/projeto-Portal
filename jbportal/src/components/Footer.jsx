@@ -2,10 +2,6 @@ import React from 'react';
 import localFont from 'next/font/local'
 import Image from "next/image";
 
-const hebrew = localFont({
-  src: '../utils/open-sans-hebrew-condensed/OpenSansHebrewCondensed-Regular.ttf',
-  variable: '--font-hebrew',
-});
 
 const Footer = () => {
   return (
@@ -13,10 +9,10 @@ const Footer = () => {
       <footer className="footer-principal">
         <div className="footer">
           <div className="footer-column1">
-          <h3 className="footer-title font-hebrew ">MAPA DO SITE</h3>
+          <h3 className="footer-title opensanshebrewcondensed-bold">MAPA DO SITE</h3> 
             <h4 className="footer-border"></h4>
-            <ul className="footer-list">
-              <li><a href="http://example.com/mapa-estrategia" className='font-hebrew'>A LAI</a></li>
+            <ul className="footer-list opensanshebrewcondensed-regular text-base">
+              <li><a href="http://example.com/mapa-estrategia">A LAI</a></li>
               <li><a href="http://example.com/portal-transparencia">RECEITAS</a></li>
               <li><a href="http://example.com/estrutura-organizacional">DESPESAS</a></li>
               <li><a href="http://example.com/galeria-elogios">LICITAÇÕES</a></li>
@@ -45,9 +41,9 @@ const Footer = () => {
           </div>
 
           <div className="footer-column2">
-            <h3 className="footer-title">SITES RELACIONADOS</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold">SITES RELACIONADOS</h3>
             <h4 className="footer-border"></h4>
-            <ul className="footer-list">
+            <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li>
                 <a href="https://amorpor.jaboatao.pe.gov.br/">AMOR JABOATÃO</a>
               </li>
@@ -128,36 +124,36 @@ const Footer = () => {
           </div>
 
           <div className="footer-column3">
-            <h3 className="footer-title">OUVIDORIA</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">OUVIDORIA</h3>
             <h4 className="footer-border"></h4>
-            <p>OUVIDORIA GERAL: 0800 081 8999/</p>
-            <p>(81) 9.9422-5177</p>
-            <p>ATENDIMENTO DE SEGUNDA A SEXTA-FEIRA, DAS 8H ÀS 14H</p>
-            <p>E-MAIL: ouvidoria@jaboatao.pe.gov.br</p>
+            <p className='opensanshebrewcondensed-regular text-base'>OUVIDORIA GERAL: 0800 081 8999/</p>
+            <p className='opensanshebrewcondensed-regular text-base'>(81) 9.9422-5177</p>
+            <p className='opensanshebrewcondensed-regular text-base'>ATENDIMENTO DE SEGUNDA A SEXTA-FEIRA, DAS 8H ÀS 14H</p>
+            <p className='opensanshebrewcondensed-regular text-base'>E-MAIL: ouvidoria@jaboatao.pe.gov.br</p>
 
-            <h3 className="footer-title">ACESSIBILIDADE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">ACESSIBILIDADE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list">
               <li>
-                <a href="http://example.com/informacoes">INFORMAÇÕES</a>
+                <a href="http://example.com/informacoes" className='opensanshebrewcondensed-regular text-base'>INFORMAÇÕES</a>
               </li>
               <li>
-                <a href="http://example.com/informacoes">TECLAS DE ATALHO</a>
+                <a href="http://example.com/informacoes" className='opensanshebrewcondensed-regular text-base'>TECLAS DE ATALHO</a>
               </li>
             </ul>
 
-            <h3 className="footer-title">NAVEGABILIDADE</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">NAVEGABILIDADE</h3>
             <h4 className="footer-border"></h4>
 
             <ul className="footer-list">
               <li>
-                <a href="http://example.com/glossario">GLOSSÁRIO</a>
+                <a href="http://example.com/glossario" className='opensanshebrewcondensed-regular text-base'>GLOSSÁRIO</a>
               </li>
               <li>
-                <a href="http://example.com/glossario">MAPA DO SITE</a>
+                <a href="http://example.com/glossario" className='opensanshebrewcondensed-regular text-base'>MAPA DO SITE</a>
               </li>
             </ul>
-            <h3 className="footer-title">ACOMPANHE-NOS</h3>
+            <h3 className="footer-title opensanshebrewcondensed-bold text-xl">ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
             <div className="icones-footer space-x-4">
   <a
@@ -184,7 +180,7 @@ const Footer = () => {
   >
     <i className="ri-youtube-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
   </a>
-</div>
+            </div>
 
           </div>
         </div>

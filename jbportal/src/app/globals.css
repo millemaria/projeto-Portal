@@ -12,5 +12,30 @@
     outline: none;
   }
   
- 
+
+
+
   
+@font-face {
+  font-family: 'OpenSansHebrewCondensed-Bold';
+  src: url('/fontes/open-sans-hebrew-condensed/OpenSansHebrewCondensed-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+.opensanshebrewcondensed-bold {
+  font-family: 'OpenSansHebrewCondensed-Bold';
+}
+
+
+
+@font-face {
+  font-family: 'OpenSansHebrewCondensed-Regular';
+  src: url('/fontes/open-sans-hebrew-condensed/OpenSansHebrewCondensed-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.opensanshebrewcondensed-regular {
+  font-family: 'OpenSansHebrewCondensed-Regular';
+}
