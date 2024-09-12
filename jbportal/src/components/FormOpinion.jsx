@@ -24,10 +24,9 @@ const pesquisaSatisfacaoData = ['Muito Satisfeito', 'Satisfeito', 'Indiferente',
 const FormOpinion = () => {
     return (
         <div className="max-w-4xl mx-auto p-8">
-            <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
+            < h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
                 QUAL A SUA OPINIÃO SOBRE O NOSSO PORTAL?
             </h2>
-
             <form>
             <div className="flex flex-col md:flex-row justify-between text-center space-y-8 md:space-y-0 md:space-x-8">
             {/* Regionais */}

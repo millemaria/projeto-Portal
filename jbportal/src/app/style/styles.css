@@ -3,3 +3,6 @@
         margin-top: 119px;
     }
 }
+html {
+    scroll-behavior: smooth;
+  }

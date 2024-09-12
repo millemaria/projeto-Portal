@@ -45,9 +45,11 @@ export default function Home() {
     <div>
       <Menu />
       <ImageSlider />
-
-      <section id="institucional" className="bg-white py-[20px]">
-        <div className="container mx-auto onClick={() => handleScroll('targetSection')}">
+      <span id="institucional">
+        <BorderTop  />
+      </span>
+      <section  className="bg-white py-[20px] ">
+        <div className="container mx-auto">
           <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
             INSTITUCIONAL
           </h2>
@@ -83,7 +85,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BorderTop />
+      <span id="receitas">
+        <BorderTop />
+      </span>
       {/* Receitas  */}
       <section className="bg-white py-[20px]">
         <div className="container mx-auto">
@@ -122,7 +126,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BorderTop />
+      <span id="licitacoes">
+        <BorderTop />
+      </span>
       <section className="bg-white py-[20px]">
         <div className="container mx-auto">
           <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
@@ -140,7 +146,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BorderTop />
+      <span id="convenios">
+        <BorderTop />
+      </span>
       <section className="bg-white py-[20px]">
         <div className="container mx-auto">
           <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
@@ -170,8 +178,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BorderTop />
-
+      <span id="planejamento">
+        <BorderTop />
+      </span>
       <section className="bg-white py-[20px]">
         <div className="container mx-auto">
           <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
@@ -194,7 +203,9 @@ export default function Home() {
         </div>
       </section>
 
-      <BorderTop />
+      <span id="transparencia">
+        <BorderTop />
+      </span>
       <section className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>MAIS TRANSPARÊNCIA</h2>
@@ -262,7 +273,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <BorderTop />
+      <span id="governanca">
+        <BorderTop />
+      </span>
         <section className="bg-white py-10">
           <div className="container mx-auto">
             <h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
@@ -293,7 +306,9 @@ export default function Home() {
           </div>
         </section>
         <ScrollToTop />
-      <BorderTop />
+      <span id="pesquisa">
+        <BorderTop />
+      </span>
       <FormOpinion />
       <BorderTopInvertido />
       <Footer />

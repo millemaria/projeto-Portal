@@ -10,6 +10,9 @@ module.exports = {
       zIndex: {
         '-1': '-1', // Adiciona o valor -1 para z-index
       },
+      scrollBehavior: {
+        smooth: 'smooth', // Corrigido: coloca o comportamento de rolagem suave corretamente
+      },
       textUnderlineOffset: {
         'custom': '4px', // Ajuste o valor conforme necessário
       },

@@ -112,7 +112,7 @@ export default function ImageSlider() {
       <BsSearch className="text-5xl text-white transition-transform duration-300 group-hover:-translate-y-2" />
       <p style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-1 text-xs text-white text-center transition-transform duration-300 group-hover:-translate-y-2">PESQUISA DE<br />SATISFAÇÃO</p>
     </a>
-    <a href="#sic" className="flex flex-col items-center m-2 border-r border-white pr-4 group sm:pr-2 md:pr-4 lg:pr-6">
+    <a href="https://eouve.com.br/#/sic" className="flex flex-col items-center m-2 border-r border-white pr-4 group sm:pr-2 md:pr-4 lg:pr-6">
       <BsInfoCircle className="text-5xl text-white transition-transform duration-300 group-hover:-translate-y-2" />
       <p style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-1 text-xs text-white text-center transition-transform duration-300 group-hover:-translate-y-2">SIC</p>
     </a>
@@ -122,10 +122,6 @@ export default function ImageSlider() {
     </a>
   </section>
 </div>
-
-
-
-      <BorderTop />
     </div>
 
   );
