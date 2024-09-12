@@ -74,7 +74,7 @@ export default function Home() {
               <FaBuilding className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">BENS PATRIMONIAIS</p>
             </Link>
-            <Link href="/previdencia-municipal" className="text-center hover:text-blue-600">
+            <Link href="https://jaboataoprev.jaboatao.pe.gov.br/" className="text-center hover:text-blue-600">
               <FaCommentsDollar className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">PREVIDÊNCIA MUNICIPAL</p>
             </Link>
@@ -252,7 +252,7 @@ export default function Home() {
                 <p className="open-sans-custom">AUXÍLIO MORADIA</p>
               </div>
             </Link>
-            <Link href="/lei-paulo-gustavo">
+            <Link href="https://viver.jaboatao.pe.gov.br/cadastro-lei-paulo-gustavo/">
               <div>
                 <FaMasksTheater className="text-blue-900 text-5xl mx-auto mb-2" />
                 <p className="open-sans-custom">LEI PAULO GUSTAVO</p>
@@ -290,15 +290,15 @@ export default function Home() {
                 <FaDigitalOcean className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">GOVERNO< br />DIGITAL</p>
               </Link>
-              <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
+              <a href="." className="text-center hover:text-blue-600">
                 <FaLock className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">LGPD</p>
-              </Link>
-              <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+              </a>
+              <Link href="https://ouvidoria.jaboatao.pe.gov.br/s" className="text-center hover:text-blue-600">
                 <FaHeadset className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">OUVIDORIA</p>
               </Link>
-              <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+              <Link href="https://eouve.com.br/#/sic" className="text-center hover:text-blue-600">
                 <BsFillInfoCircleFill className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">ACESSO À <br /> INFORMAÇÃO - SIC</p>
               </Link>
