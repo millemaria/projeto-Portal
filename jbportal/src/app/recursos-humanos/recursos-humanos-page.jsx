@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { FaHome, FaUsers } from "react-icons/fa";
+import {  FaUsers } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
-import { PiBookOpenUserBold } from "react-icons/pi";
+import { FaHandsHelping } from "react-icons/fa";
 import { Roboto } from 'next/font/google';
 
 // Declara a fonte Roboto com as variantes que você deseja
@@ -12,28 +12,35 @@ const roboto = Roboto({
 
 export default function RecursosHumanos() {
   return (
-    <div className={`bg-white py-16 w-full flex justify-center ${roboto.className}`}>
-      <div className="flex justify-center space-x-8">
-        {/* Botão 1 */}
-        <div className="bg-[#002A66] text-white w-[300px] h-[200px] flex flex-col justify-center items-center shadow-lg hover:bg-white hover:text-[#002A66] group transition-all duration-500 ease-in-out">
-          <FaUsers className="text-5xl mx-auto text-white group-hover:opacity-0 transition-opacity duration-500 ease-in-out" />
-          <span className="mt-4 text-[16px] font-semibold group-hover:opacity-0 transition-opacity duration-500 ease-in-out">SERVIDORES</span>
-          <span className="hidden group-hover:block text-[20px] font-semibold transition-opacity duration-500 ease-in-out">SERVIDORES</span>
-        </div>
-
+    <div className={`bg-white py-16 w-full ${roboto.className}`}>
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-8">
+  <a href="https://seulink.com">
+    <div className="bg-[#002A66] text-white w-[90%] sm:w-[300px] h-[200px] mx-auto flex flex-col justify-center items-center shadow-lg hover:bg-gradient-to-br hover:from-[#002A66] hover:to-[#377BB5] hover:text-white group transition-all duration-300 ease-in-out relative">
+      <FaUsers className="text-5xl mx-auto text-white group-hover:opacity-0 transition-opacity duration-300 ease-in-out" />
+      <span className="mt-4 text-[16px] font-semibold text-center group-hover:opacity-0 transition-opacity duration-300 ease-in-out">SERVIDORES</span>
+      <span className="hidden group-hover:flex justify-center items-center absolute inset-0 text-[20px] font-semibold transition-opacity duration-500 ease-in-out">SERVIDORES</span>
+    </div>
+</a>
         {/* Botão 2 */}
-        <div className="bg-[#002A66] text-white w-[300px] h-[200px] flex flex-col justify-center items-center shadow-lg hover:bg-white hover:text-[#002A66] group transition-all duration-500 ease-in-out">
-          <GrDocumentText className="text-5xl mx-auto text-white group-hover:opacity-0 transition-opacity duration-500 ease-in-out" />
-          <span className="mt-4 text-[16px] font-semibold group-hover:opacity-0 transition-opacity duration-500 ease-in-out">ESTAGIÁRIOS</span>
-          <span className="hidden group-hover:block text-[20px] font-semibold transition-opacity duration-500 ease-in-out">ESTAGIÁRIOS</span>
-        </div>
-
+        <a href="https://seulink.com">
+    <div className="bg-[#002A66] text-white w-[90%] sm:w-[300px] h-[200px] mx-auto flex flex-col justify-center items-center shadow-lg hover:bg-gradient-to-br hover:from-[#002A66] hover:to-[#377BB5] hover:text-white group transition-all duration-300 ease-in-out relative">
+      <GrDocumentText className="text-5xl mx-auto text-white group-hover:opacity-0 transition-opacity duration-300 ease-in-out" />
+      <span className="mt-4 text-[16px] font-semibold text-center group-hover:opacity-0 transition-opacity duration-300 ease-in-out">ESTÁGIARIOS</span>
+      <span className="hidden group-hover:flex justify-center items-center absolute inset-0 text-[20px] font-semibold transition-opacity duration-500 ease-in-out">ESTÁGIARIOS</span>
+    </div>
+  </a>
         {/* Botão 3 */}
-        <div className="bg-[#002A66] text-white w-[300px] h-[200px] flex flex-col justify-center items-center shadow-lg hover:bg-white hover:text-[#002A66] group transition-all duration-500 ease-in-out">
-          <PiBookOpenUserBold className="text-4xl mx-auto text-white group-hover:opacity-0 transition-opacity duration-500 ease-in-out" />
-          <span className="mt-6 text-[16px] text-center font-semibold group-hover:opacity-0 transition-opacity duration-500 ease-in-out">TERCEIRIZADOS</span>
-          <span className="hidden my-[96px]  text-[22px] text-center group-hover:block font-semibold transition-opacity duration-500 ease-in-out">TERCEIRIZADOS</span>
-        </div>
+        <a href="https://seulink.com">
+    <div className="bg-[#002A66] text-white w-[90%] sm:w-[300px] h-[200px] mx-auto flex flex-col justify-center items-center shadow-lg hover:bg-gradient-to-br hover:from-[#002A66] hover:to-[#377BB5] hover:text-white group transition-all duration-300 ease-in-out relative">
+      <FaHandsHelping  className="text-5xl mx-auto text-white group-hover:opacity-0 transition-opacity duration-300 ease-in-out" />
+      <span className="mt-4 text-[16px] font-semibold text-center group-hover:opacity-0 transition-opacity duration-300 ease-in-out">
+        TERCERIZADOS
+      </span>
+      <span className="hidden group-hover:flex justify-center items-center absolute inset-0 text-[20px] font-semibold text-center transition-opacity duration-500 ease-in-out">
+      TERCERIZADOS
+      </span>
+    </div>
+  </a>
       </div>
     </div>
   );
