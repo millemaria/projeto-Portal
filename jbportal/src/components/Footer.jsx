@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="footer-principal">
         <div className="footer">
           <div className="footer-column1">
-          <h3 className="footer-title opensanshebrewcondensed-bold">MAPA DO SITE</h3> 
+            <h3 className="footer-title opensanshebrewcondensed-bold">MAPA DO SITE</h3>
             <h4 className="footer-border"></h4>
             <ul className="footer-list opensanshebrewcondensed-regular text-base">
               <li><a href="http://example.com/mapa-estrategia">A LAI</a></li>
@@ -156,30 +156,30 @@ const Footer = () => {
             <h3 className="footer-title opensanshebrewcondensed-bold text-xl">ACOMPANHE-NOS</h3>
             <h4 className="footer-border"></h4>
             <div className="icones-footer space-x-4">
-  <a
-    href="https://twitter.com/jaboataoonline"
-    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
-  >
-    <i className="ri-twitter-x-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
-  </a>
-  <a
-    href="https://www.facebook.com/PrefeituradoJaboatao"
-    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
-  >
-    <i className="ri-facebook-circle-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
-  </a>
-  <a
-    href="https://www.instagram.com/prefjaboatao/"
-    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
-  >
-    <i className="ri-instagram-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
-  </a>
-  <a
-    href="https://www.youtube.com/user/prefeiturajaboatao/videos"
-    className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
-  >
-    <i className="ri-youtube-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
-  </a>
+              <a
+                href="https://twitter.com/jaboataoonline"
+                className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-twitter-x-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/PrefeituradoJaboatao"
+                className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-facebook-circle-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/prefjaboatao/"
+                className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-instagram-line text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/user/prefeiturajaboatao/videos"
+                className="group flex items-center justify-center w-10 h-10 rounded-full bg-transparent transition-colors duration-300 hover:bg-white"
+              >
+                <i className="ri-youtube-fill text-2xl text-white transition-colors duration-300 group-hover:text-blue-900"></i>
+              </a>
             </div>
 
           </div>
