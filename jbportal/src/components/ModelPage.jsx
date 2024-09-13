@@ -9,7 +9,7 @@ export default function Model({ children, caminhoImagem, titulo, subtitulo }) {
   return (
     <div>
         <Menu />
-        <div className="relative w-full h-[250px] flex items-end justify-center bg-[#00224E]">
+        <div className="relative w-full h-[275px] flex items-end justify-center bg-[#00224E]">
           {/* Imagem de fundo */}
           <Image
             src={caminhoImagem}

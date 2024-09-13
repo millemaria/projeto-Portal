@@ -18,15 +18,17 @@ const PdfViewer = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        cursor: 'pointer' // Adiciona um cursor pointer para indicar que o div é clicável
+        cursor: 'pointer',
       }}
       onClick={handlePdfClick}
     >
       <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
-        <Viewer 
-          fileUrl={pdfUrl} 
-          defaultScale={0.7} // Define a escala para 70%
-        />
+        <div style={{ width: '100%', maxWidth: '1000px', height: 'auto' }}>
+          <Viewer
+            fileUrl={pdfUrl}
+            defaultScale={window.innerWidth < 640 ? 0.5 : 0.8} // Escala adaptativa para mobile e desktop
+          />
+        </div>
       </Worker>
     </div>
   );
