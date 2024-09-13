@@ -12,7 +12,7 @@ import "../app/style/styles.css"
 
 
 const roboto = localFont({
-  src: '../utils/Roboto/Roboto-Regular.ttf',
+  src: '../utils/roboto/Roboto-Regular.ttf',
   variable: '--font-roboto',
 });
 

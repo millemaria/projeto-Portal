@@ -10,6 +10,7 @@
     "type": "module"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
