@@ -66,7 +66,7 @@ export default function Home() {
               <FaBalanceScale className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">LEGISLAÇÃO</p>
             </Link>
-            <Link href="/concursos-selecoes" className="text-center hover:text-blue-600">
+            <Link href="/concursos-e-selecoes" className="text-center hover:text-blue-600">
               <FaScroll className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">CONCURSOS E SELEÇÕES</p>
             </Link>
