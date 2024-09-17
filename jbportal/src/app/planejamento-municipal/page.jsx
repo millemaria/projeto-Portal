@@ -2,7 +2,7 @@
 
 import ModelPage from "../../components/ModelPage"
 import Planejamento from "./planejamento";
-export default function bens() {
+export default function planejamento() {
     return (
       <div>
           <ModelPage

@@ -187,15 +187,15 @@ export default function Home() {
            PLANEJAMENTO E GESTÃO FISCAL
           </h2>
           <div className="flex justify-center space-x-16  mb-8">
-            <Link href="/licitaçoes" className="text-center hover:text-blue-600">
+            <Link href="/planejamento-municipal" className="text-center hover:text-blue-600">
               <FaCity className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">PLANEJAMENTO MUNICPAL</p>
             </Link>
-            <Link href="/cONTRATOS" className="text-center hover:text-blue-600">
+            <Link href="/prestacao-de-contas" className="text-center hover:text-blue-600">
               <FaCalculator className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">PRESTAÇÃO DE CONTAS</p>
             </Link>
-            <Link href="/cONTRATOS" className="text-center hover:text-blue-600">
+            <Link href="/programas-e-acoes" className="text-center hover:text-blue-600">
               <MdFamilyRestroom className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">PROGRAMAS E AÇÕES</p>
             </Link>
