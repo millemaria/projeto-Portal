@@ -45,25 +45,25 @@ export default function estrutura() {
 
             {/* Links abaixo do PDF */}
             <div className="mt-24 ml-4 sm:ml-[250px]">
-  {/* Links */}
-  <ul className="space-y-4">
-    <li>
-      <a href="https://your-link.com" className="text-blue-900 text-[18px] sm:text-[20px] hover:underline">
-        LEI COMPLEMENTAR Nº 45/2023
-      </a>
-    </li>
-    <li>
-      <a href="https://your-link.com" className="text-blue-900 text-[16px] sm:text-[18px] hover:underline">
-        Anexo I – Lei Complementar nº 45 Alterado pela Lei 1.564-2023 – TABELA DE CARGOS
-      </a>
-    </li>
-    <li>
-      <a href="https://your-link.com" className="text-blue-900 text-[16px] sm:text-[18px] hover:underline">
-        Instrução Normativa nº 04 de 19 de Julho de 2023 – Nomenclatura das Secretarias
-      </a>
-    </li>
-  </ul>
-</div>
+          {/* Links */}
+          <ul className="space-y-4">
+            <li>
+              <a href="https://your-link.com" className="text-blue-900 text-[18px] sm:text-[20px] hover:underline">
+                LEI COMPLEMENTAR Nº 45/2023
+              </a>
+            </li>
+            <li>
+              <a href="https://your-link.com" className="text-blue-900 text-[16px] sm:text-[18px] hover:underline">
+                Anexo I – Lei Complementar nº 45 Alterado pela Lei 1.564-2023 – TABELA DE CARGOS
+              </a>
+            </li>
+            <li>
+              <a href="https://your-link.com" className="text-blue-900 text-[16px] sm:text-[18px] hover:underline">
+                Instrução Normativa nº 04 de 19 de Julho de 2023 – Nomenclatura das Secretarias
+              </a>
+            </li>
+          </ul>
+        </div>
 
       </div>
     );
