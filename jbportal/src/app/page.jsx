@@ -78,7 +78,7 @@ export default function Home() {
               <FaCommentsDollar className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">PREVIDÊNCIA MUNICIPAL</p>
             </Link>
-            <Link href="/orientacoes-recomendacoes" className="text-center hover:text-blue-600">
+            <Link href="/orientacoes-e-recomendacoes" className="text-center hover:text-blue-600">
               <FaInfoCircle className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">ORIENTAÇÕES E RECOMENDAÇÕES</p>
             </Link>

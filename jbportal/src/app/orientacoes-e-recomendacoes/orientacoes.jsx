@@ -146,14 +146,38 @@ INSTRUÇÃO NORMATIVA CGM Nº 002/2024 – Orientação sobre acúmulo ilegal de
     ];
     
 
-  const additionalAccordions2 = [
-    { title: '2024', content: 'Conteúdo do Subtema A. <a href="https://www.exemplo.com/subtema-a" target="_blank">Informações adicionais sobre o Subtema A aqui.</a>' },
-    { title: '2023', content: 'Conteúdo do Subtema B. <a href="https://www.exemplo.com/subtema-b" target="_blank">Veja mais informações sobre o Subtema B.</a>' },
-    { title: '2022', content: 'Conteúdo do Subtema C. <a href="https://www.exemplo.com/subtema-c" target="_blank">Acesse detalhes sobre o Subtema C aqui.</a>' },
-    { title: '2021', content: 'Conteúdo do Subtema D. <a href="https://www.exemplo.com/subtema-d" target="_blank">Mais detalhes sobre o Subtema D aqui.</a>' },
-    { title: '2020', content: 'Conteúdo do Subtema E. <a href="https://www.exemplo.com/subtema-e" target="_blank">Informações adicionais sobre o Subtema E.</a>' },
-    { title: '2019', content: 'Conteúdo do Subtema F. <a href="https://www.exemplo.com/subtema-f" target="_blank">Saiba mais sobre o Subtema F aqui.</a>' },
+    const additionalAccordions2 = [
+      { 
+        title: '2024', 
+        content: `Guia de Orientação – Acúmulo de Cargos no Serviço Público<br /><br />
+        Manual de Gestão de Bens Móveis – 2ª Edição` 
+      },
+      { 
+        title: '2023', 
+        content: 'Guia de Orientação para Gestores e Fiscais de Contrato' 
+      },
+      { 
+        title: '2022', 
+        content: `Manual Prático Simplificado de Liquidação de Despesa<br />
+        Manual Prático do Código de Conduta Funcional`
+      },
+      { 
+        title: '2021', 
+        content: `Orientações Sobre o Termo de Ajustes de Contas – TAC<br />
+        Manual de Captação de Convênios e outros Repasses`
+      },
+      { 
+        title: '2020', 
+        content: `Manual DMS <br />
+        Manual NFS-e`
+      },
+      { 
+        title: '2019', 
+        content: `Manual Prestação de Contas OSS<br />
+        Manual Prático de Processo Administrativo Disciplinar e Sindicância` 
+      },
   ];
+  
 
   return (
     <div className="w-full max-w-7xl mx-auto mt-10 mb-10">
