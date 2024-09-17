@@ -282,15 +282,15 @@ export default function Home() {
               GOVERNANÇA DE DADOS E TRANSPARÊNCIA
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  text-center  mb-8">
-              <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
+              <Link href="../dados-abertos" className="text-center hover:text-blue-600">
                 <FaFolderOpen className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">DADOS<br /> ABERTOS</p>
               </Link>
-              <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
+              <Link href="../../pdf/LEI-No-14.129-31-DE-MAIO-DE-2023-–-XXXII-–-No-102-–-JABOATAO-DOS-GUARARAPES-Diario-Oficial.pdf" className="text-center hover:text-blue-600">
                 <FaDigitalOcean className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">GOVERNO< br />DIGITAL</p>
               </Link>
-              <a href="." className="text-center hover:text-blue-600">
+              <a href="../../pdf/30-DE-MAIO-DE-2023-–-XXXII-–-No-101-–-JABOATAO-DOS-GUARARAPES-Diario-Oficial.pdf" className="text-center hover:text-blue-600">
                 <FaLock className="text-5xl mx-auto mb-1 text-blue-900" />
                 <p className="open-sans-custom">LGPD</p>
               </a>
