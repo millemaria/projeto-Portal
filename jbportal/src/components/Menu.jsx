@@ -60,7 +60,7 @@ const Menu = () => {
             <ul className="menu-topo hidden lg:flex gap-3 mr-11 font-open-sans">
               <li className="nav-topo">
                 <a
-                  href="#"
+                  href="/acessibilidade"
                   style={{ fontFamily: 'Open Sans, sans-serif' }}
                   className="nav-link text-white text-[12px] hover:underline"
                 >
