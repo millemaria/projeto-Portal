@@ -173,7 +173,7 @@ const Menu = () => {
                   onMouseLeave={() => toggleDropdown("institucional")}
                 >
                   <a
-                    href="#"
+                    href="/estrutura-organizacional"
                     style={{ fontFamily: 'Open Sans, sans-serif' }}
                     className="nav-link hover:underline text-[#fbfcfd] hover:decoration-[#13AFF0] hover:text-[#ffff] transition duration-100 relative overflow-hidden px-4 py-4 hover:before:content-[''] hover:before:absolute hover:before:inset-0 hover:before:bg-[#224276] hover:before:z-[-1]"
                   >
@@ -208,7 +208,7 @@ const Menu = () => {
                   {dropdowns.servicos && (
                     <ul className="absolute left-0 w-48 bg-[#2170B5] text-[#ffffff] shadow-lg">
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5] transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="https://conselhodeusuarios.jaboatao.pe.gov.br/avaliacoes-2/" className="block px-4 py-4">
                           AVALIAÇÃO DE SERVIÇOS/PESQUISA DE SATISFAÇÃO
                         </a>
                       </li>
@@ -218,17 +218,17 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="/atendimento-ao-publico" className="block px-4 py-4">
                           ATENDIMENTO AO PÚBLICO
                         </a>
                       </li>
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="https://conselhodeusuarios.jaboatao.pe.gov.br/" className="block px-4 py-4">
                           CONSELHO DE USUÁRIOS
                         </a>
                       </li>
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]    border-t border-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="https://ouvidoria.jaboatao.pe.gov.br/perguntas-frequentes/" className="block px-4 py-4">
                           PERGUNTAS FREQUENTES
                         </a>
                       </li>
@@ -238,7 +238,7 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="https://jaboatao.pe.gov.br/servicos-para-o-cidadao/" className="block px-4 py-4">
                           SERVIÇOS ONLINE PARA O CIDADÃO
                         </a>
                       </li>

@@ -54,7 +54,7 @@ export default function Home() {
             INSTITUCIONAL
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-center mb-8">
-            <Link href="../estrutura-organizacional" className="text-center hover:text-blue-600">
+            <Link href="/estrutura-organizacional" className="text-center hover:text-blue-600">
               <PiTreeStructureFill className="text-5xl mx-auto text-blue-900" />
               <p className= "open-sans-custom">ESTRUTURA ORGANIZACIONAL</p>
             </Link>

@@ -1,6 +1,5 @@
 'use client';
 import ModelPage from "../../components/ModelPage"
-import Image from 'next/image';
 import RecursosHumanos from './recursos-humanos-page';
 import Link from "next/link";
 
