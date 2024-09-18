@@ -259,7 +259,7 @@ const Menu = () => {
                   {dropdowns.secretarias && (
                     <ul className="absolute left-0 w-48 bg-[#2170B5] text-[#ffffff] shadow-lg">
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="/apresentacao-lai" className="block px-4 py-4">
                           APRESENTAÇÃO - LAI / ENDEREÇO
                         </a>
                       </li>
