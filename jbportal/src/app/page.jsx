@@ -155,15 +155,15 @@ export default function Home() {
             CONVÊNIOS | EMENDAS | OUTROS REPASSES
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center  mb-8">
-            <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
+            <Link href="/transferencias-realizadas-2" className="text-center hover:text-blue-600">
               <FaHandshake className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">TRANSFERÊNCIAS <br />REALIZADAS / TERMOS DE PARCERIA</p>
             </Link>
-            <Link href="/pagamento-cronologica" className="text-center hover:text-blue-600">
+            <Link href="/transferencias-recebidas-convenios" className="text-center hover:text-blue-600">
               <GrDocumentTransfer className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">TRANSFERÊNCIAS< br /> RECEBIDAS/CONVÊNIOS</p>
             </Link>
-            <Link href="/retencoes-impostos" className="text-center hover:text-blue-600">
+            <Link href="/emendas-parlamentares" className="text-center hover:text-blue-600">
               <RiGovernmentFill className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">EMENDAS<br /> PARLAMENTARES</p>
             </Link>
@@ -171,7 +171,7 @@ export default function Home() {
               <TbWorld className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">TERCEIRO<br /> SETOR</p>
             </Link>
-            <Link href="/infrações-transito" className="text-center hover:text-blue-600">
+            <Link href="/duodecimo" className="text-center hover:text-blue-600">
               <FaMoneyBill className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">DUODÉCIMO</p>
             </Link>
