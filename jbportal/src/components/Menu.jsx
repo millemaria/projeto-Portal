@@ -145,7 +145,7 @@ const Menu = () => {
 
           {/* Navbar */}
           <div className="menus">
-          <div className="navbar fixed top-[38px] w-full z-40 bg-[#152e5a94] flex justify-between items-center p-[13px] pl-[20px] pr-[10px] border-t border-white">
+          <div className="navbar fixed top-[38px] w-full z-40 bg-[#002A66] flex justify-between items-center p-[13px] pl-[20px] pr-[10px] border-t border-white">
               <a
                 onClick={() => (window.location.href = "/")}
                 href="#"
@@ -233,7 +233,7 @@ const Menu = () => {
                         </a>
                       </li>
                       <li className="hover:bg-[#F6F5F5] hover:text-[#2170B5]  border-t border-white transition duration-200">
-                        <a href="#" className="block px-4 py-4">
+                        <a href="/tamojunto-consulta-popular" className="block px-4 py-4">
                           TAMOJUNTO CONSULTA POPULAR
                         </a>
                       </li>
