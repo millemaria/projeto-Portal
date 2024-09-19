@@ -103,7 +103,7 @@ export default function Home() {
               <BsCreditCard className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">DESPESAS</p>
             </Link>
-            <Link href="/renuncias-de-receita" className="text-center hover:text-blue-600">
+            <Link href="/renuncias-receitas" className="text-center hover:text-blue-600">
               <BsFillFileEarmarkCheckFill className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">RENÚNCIAS DE RECEITA</p>
             </Link>
