@@ -167,7 +167,7 @@ export default function Home() {
               <RiGovernmentFill className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">EMENDAS<br /> PARLAMENTARES</p>
             </Link>
-            <Link href="/diarias-e-passagens" className="text-center hover:text-blue-600">
+            <Link href="/terceiro-setor" className="text-center hover:text-blue-600">
               <TbWorld className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">TERCEIRO<br /> SETOR</p>
             </Link>
