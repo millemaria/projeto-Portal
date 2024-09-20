@@ -11,7 +11,7 @@ export default function TerceiroSetor() {
           </a>
   
           <a 
-            href="https://exemplo.com/impacto" 
+            href="/terceiro-setor/instituto-metropolitano-de-profissionalizacao-arte-cultura-e-oportunidades-impacto" 
             className="bg-[#10417F] border-2 border-[#fff] text-white text-center py-4 px-8 rounded-full shadow-[0_10px_20px_rgba(0,0,0,0.3)] max-w-xl w-full transition-all duration-300 hover:bg-white hover:text-[#10417F] hover:border-[#10417F]"
           >
             INSTITUTO METROPOLITANO DE PROFISSIONALIZAÇÃO, ARTE, CULTURA E OPORTUNIDADES – IMPACTO
