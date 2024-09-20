@@ -13,7 +13,7 @@ const openSans = localFont({
     variable: '--font-open',
 });
 
-const faixaEtariaData = ['Até 29', '30 - 39', '40 - 49', '50 - 59', '60 ou mais'];
+const faixaEtariaData = ['ATÉ 29', '30 - 39', '40 - 49', '50 - 59', '60 OU MAIS'];
 
 // Aplica toUpperCase a cada elemento do array
 const regionalData = ['Regional 01', 'Regional 02', 'Regional 03', 'Regional 04', 'Regional 05', 'Regional 06', 'Regional 07'].map(regional => regional.toUpperCase());
@@ -23,7 +23,7 @@ const pesquisaSatisfacaoData = ['Muito Satisfeito', 'Satisfeito', 'Indiferente',
 
 const FormOpinion = () => {
     return (
-        <div className="max-w-4xl mx-auto p-8">
+        <div className="max-w-6xl mx-auto p-8">
             < h2 className={`${bebasNeue.variable} text-center text-blue-800 text-6xl font-bebas font-semi-bold mb-16 my-10`}>
                 QUAL A SUA OPINIÃO SOBRE O NOSSO PORTAL?
             </h2>
@@ -39,7 +39,7 @@ const FormOpinion = () => {
                     className='mr-4'
                 />
                 <fieldset className="flex-1">
-                <legend className="text-lg open-sans-custom-form font-semibold">Regionais <span className="text-red-600">*</span></legend>
+                <legend className="text-lg open-sans-custom-form font-semibold text-left">REGIONAIS <span className="text-red-600">*</span></legend>
                 <div className="mt-4 open-sans-custom-input-radio text-left">
                     {regionalData.map((regional, index) => (
                     <div key={index} className="flex items-center space-x-2">
@@ -67,7 +67,7 @@ const FormOpinion = () => {
                     className='mr-4'
                 />
                 <fieldset className="flex-1">
-                    <legend className="text-lg open-sans-custom-form font-semibold">Faixa Etária <span className="text-red-600">*</span></legend>
+                    <legend className="text-lg open-sans-custom-form font-semibold text-left">FAIXA ETÁRIA<span className="text-red-600">*</span></legend>
                     <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
                         {faixaEtariaData.map((faixa, index) => (
                             <div key={index} className="flex items-center space-x-2">
@@ -94,7 +94,7 @@ const FormOpinion = () => {
                     className='mr-4'
                 />
                 <fieldset className="flex-1">
-                    <legend className="text-lg open-sans-custom-form font-semibold mr-6">Satisfação <span className="text-red-600">*</span></legend>
+                    <legend className="text-lg open-sans-custom-form font-semibold mr-6 text-left">SATISFAÇÃO <span className="text-red-600">*</span></legend>
                     <div className="mt-4 space-y-2 open-sans-custom-input-radio text-left">
                         {pesquisaSatisfacaoData.map((satisfaction, index) => (
                             <div key={index} className="flex items-center space-x-2">
