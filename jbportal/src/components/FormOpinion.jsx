@@ -114,7 +114,7 @@ const FormOpinion = () => {
 
 
                 <div className="flex justify-center mt-16">
-                    <button type="submit" className="bg-blue-600 hover-bg-blue-800 text-white px-6 py-2 rounded-full font-semibold">
+                    <button type="submit" className="bg-blue-600 border-2 border-white hover:bg-blue-800 hover:border-white shadow-[0_10px_20px_rgba(0,0,0,0.3)] text-white px-6 py-2 rounded-full font-semibold">
                         ENVIAR
                     </button>
                 </div>
@@ -145,7 +145,7 @@ const FormOpinion = () => {
                 </div>
 
                 <div className="text-center mt-8">
-                    <button type="submit" className="bg-blue-800 text-white px-6 py-2 rounded-full font-semibold">
+                    <button type="submit" className="bg-blue-600 border-2 border-white hover:bg-blue-800 hover:border-white shadow-[0_10px_20px_rgba(0,0,0,0.3)] text-white px-6 py-2 rounded-full font-semibold">
                         ENVIAR
                     </button>
                 </div>
