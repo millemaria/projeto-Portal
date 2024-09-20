@@ -68,6 +68,7 @@ const styles = {
     transition: 'opacity 0.4s ease, background-color 0.3s ease', // Adiciona transição suave para a cor de fundo
     opacity: 0, // O botão começa invisível
     visibility: 'hidden', // O botão começa oculto
+    zIndex: 9999,
   },
 };
 
