@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 const PdfViewer = () => {
   const pdfUrl = './pdf/organograma.pdf';
+  const [scale, setScale] = useState(0.8); // Valor padrão para desktop
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Verifica se estamos no lado do cliente
+      setScale(window.innerWidth < 640 ? 0.5 : 0.8); // Ajusta a escala para mobile ou desktop
+    }
+  }, []);
 
   const handlePdfClick = () => {
     window.open(pdfUrl, '_blank');
@@ -26,7 +34,7 @@ const PdfViewer = () => {
         <div style={{ width: '100%', maxWidth: '1000px', height: 'auto' }}>
           <Viewer
             fileUrl={pdfUrl}
-            defaultScale={window.innerWidth < 640 ? 0.5 : 0.8} // Escala adaptativa para mobile e desktop
+            defaultScale={scale} // Usa o valor da escala adaptado para mobile ou desktop
           />
         </div>
       </Worker>

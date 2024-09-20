@@ -50,10 +50,9 @@ export default function CentroPoliesportivo() {
           >
             <div className="space-y-9 p-4 text-[#213476]">
               <ul>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="underline"><strong>Declaração CDJG</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_IDOSA___CEPEC-1.pdf" className="underline"><strong>Declaração COMDDIJ</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DE_ASSISTENCIA___CEPEC-1.pdf" className="underline"><strong>Declaração CMAS</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DE_DEFESA_DOS_DIRETOS_DA_CRIANCA_E_DO_ADOLESCENTE___CEPEC-1.pdf" className="underline"><strong>Declaração CMDDCA</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Declaração CDJG</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DE_ASSISTENCIA___CEPEC-1.pdf" className="hover:underline"><strong>Declaração CMAS</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DE_DEFESA_DOS_DIRETOS_DA_CRIANCA_E_DO_ADOLESCENTE___CEPEC-1.pdf" className="hover:underline"><strong>Declaração CMDDCA</strong></a></li>
               </ul>
             </div>
           </div>
@@ -80,9 +79,10 @@ export default function CentroPoliesportivo() {
           >
             <div className="p-4 text-[#213476]">
               <ul>
-                <li><a href="../../pdf/Termo-de-Colaboracao-no-006_2022-SAS.pdf" className="underline"><strong>Termo de Colaboração</strong></a></li>
-                <li><strong>Prestação de Contas (2023)</strong></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="underline"><strong>Relatório de Atividades</strong></a></li>
+                <li><a href="../../pdf/Termo-de-Colaboracao-no-006_2022-SAS.pdf" className="hover:underline"><strong>Termo de Colaboração</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Equipe-Função</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Prestação de Contas</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Relatório de Atividades</strong></a></li>
               </ul>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function CentroPoliesportivo() {
             className="w-full text-left p-4 bg-[#224276] text-white flex justify-between items-center"
             onClick={toggleAccordion3}
           >
-            <span className="font-bold">Centro Poliesportivo Comunitário de Barra de Jangada Nº 008/2022</span>
+            <span className="font-bold">Instituto Metropolitano de Profissionalização, Arte, Cultura e Oportunidades - IMPACTO - N° 013/2022</span>
             <span className={`transform transition-transform duration-200 ${isOpen3 ? 'rotate-90' : ''}`}>
               &#9654;
             </span>
@@ -109,9 +109,10 @@ export default function CentroPoliesportivo() {
           >
             <div className="p-4 text-[#213476]">
               <ul>
-                <li><a href="../../pdf/Termo-de-Colaboracao-no-006_2022-SAS.pdf" className="underline"><strong>Termo de Colaboração</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="underline"><strong>Prestação de Contas</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="underline"><strong>Relatório de Atividades</strong></a></li>
+                <li><a href="../../pdf/Termo-de-Colaboracao-no-006_2022-SAS.pdf" className="hover:underline"><strong>Termo de Colaboração</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Equipe-Função</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Prestação de Contas</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Relatório de Atividades</strong></a></li>
               </ul>
             </div>
           </div>
@@ -123,7 +124,7 @@ export default function CentroPoliesportivo() {
             className="w-full text-left p-4 bg-[#224276] text-white flex justify-between items-center"
             onClick={toggleAccordion4}
           >
-            <span className="font-bold">Centro Poliesportivo Comunitário de Barra de Jangada Nº 009/2022</span>
+            <span className="font-bold">Instituto Metropolitano de Profissionalização, Arte, Cultura e Oportunidades - IMPACTO - N° 036/2019</span>
             <span className={`transform transition-transform duration-200 ${isOpen4 ? 'rotate-90' : ''}`}>
               &#9654;
             </span>
@@ -138,9 +139,10 @@ export default function CentroPoliesportivo() {
           >
             <div className="p-4 text-[#213476]">
               <ul>
-                <li><a href="../../pdf/Termo-de-Colaboracao-no-006_2022-SAS.pdf" className="underline"><strong>Termo de Colaboração</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="underline"><strong>Prestação de Contas</strong></a></li>
-                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="underline"><strong>Relatório de Atividades</strong></a></li>
+                <li><a href="../../pdf/Termo-de-Colaboracao-no-006_2022-SAS.pdf" className="hover:underline"><strong>Termo de Colaboração</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Equipe-Função</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Prestação de Contas</strong></a></li>
+                <li><a href="../../pdf/CONSELHO_MUNICIPAL_DA_PESSOA_COM_DEFICIENCIA___CEPEC.pdf" className="hover:underline"><strong>Relatório de Atividades</strong></a></li>
               </ul>
             </div>
           </div>
