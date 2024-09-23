@@ -119,7 +119,7 @@ export default function Home() {
               <IoIosAirplane className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">DIÁRIAS E PASSAGENS</p>
             </Link>
-            <Link href="/infrações-transito" className="text-center hover:text-blue-600">
+            <Link href="/infracoes-transito" className="text-center hover:text-blue-600">
               <FaTrafficLight className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">RECEITAS E DESPESAS - INFRAÇÕES DE TRÂNSITO</p>
             </Link>

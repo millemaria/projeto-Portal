@@ -1,8 +1,16 @@
 export default function Diarias() {
     return (
         <div className="flex flex-col p-8 text-[#003476]">
-
             
+            <iframe
+        src="https://transparencia.psalsis.com.br/PortalDiarias"
+        width="100%"
+        height="800px"
+        className="border-none"
+        style={{ maxWidth: '100%', minHeight: '500px' }}
+        title="Embedded Content"
+        />
+
             <p className="text-lg">Relação de concessão de diárias  com indicação do servidor e ocupação do cargo <b>clique aqui</b>
             <br/><br/>
             Valores diárias - dentro e fora do estado
