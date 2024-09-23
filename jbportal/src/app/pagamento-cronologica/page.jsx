@@ -1,15 +1,15 @@
 'use client';
 import ModelPage from "../../components/ModelPage"
-import Orientacoes from "./orientacoes";
+import Pagamento from "./pagamento";
 
 export default function recursosHumanos() {
   return (
     <div>
         <ModelPage
-        titulo={"ORIENTAÇÕES E RECOMENDAÇÕES"}
-        subtitulo={"Íncio » ORIENTAÇÕES E RECOMENDAÇÕES"}
+        titulo={"PAGAMENTO POR ORDEM CRONOLÓGICA"}
+        subtitulo={"Íncio » Pagamento por Ordem Cronológica"}
       >
-      <Orientacoes /> 
+      <Pagamento /> 
       </ModelPage>
     </div>
   );
