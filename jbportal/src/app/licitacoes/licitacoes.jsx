@@ -20,7 +20,7 @@ return(
         </a> 
 
         {/* PROCESSOS DE LICITAÇÕES À PARTIR DE 2019 */}
-        <a href="#" target="_blank">
+        <a href="../licitacoes/processos-a-partir-de-2019" target="_blank">
             <div className="bg-[#002A66] text-white w-full sm:w-[550px] h-[300px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
             <IoDocumentText className="text-6xl text-white" />
             <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
