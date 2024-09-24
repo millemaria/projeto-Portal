@@ -139,7 +139,7 @@ export default function Home() {
               <GiTakeMyMoney className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">LICITAÇÕES</p>
             </Link>
-            <Link href="/cONTRATOS" className="text-center hover:text-blue-600">
+            <Link href="/os-contratos" className="text-center hover:text-blue-600">
               <BsCreditCard className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">CONTRATOS</p>
             </Link>
