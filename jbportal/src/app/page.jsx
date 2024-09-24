@@ -135,7 +135,7 @@ export default function Home() {
             LICITAÇÕES E CONTRATOS
           </h2>
           <div className="flex justify-center space-x-16  mb-8">
-            <Link href="/licitaçoes" className="text-center hover:text-blue-600">
+            <Link href="/licitacoes" className="text-center hover:text-blue-600">
               <GiTakeMyMoney className="text-5xl mx-auto mb-1 text-blue-900" />
               <p className="open-sans-custom">LICITAÇÕES</p>
             </Link>
