@@ -39,3 +39,15 @@
 .opensanshebrewcondensed-regular {
   font-family: 'OpenSansHebrewCondensed-Regular';
 }
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/fontes/montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+} 
+
+.montserrat-bold {
+  font-family: 'Montserrat-Bold';
+}

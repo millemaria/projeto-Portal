@@ -1,5 +1,4 @@
 import { IoDocumentText } from "react-icons/io5";
-import Link from "next/link";
 
 export default function licitacoes() {
 return(
@@ -34,7 +33,7 @@ return(
         </a>
 
         {/* CONTRATANTES SANCIONADOS PELO MUNICÍPIO */}
-        <a href="#" target="_blank">
+        <a href="../licitacoes/contratantes-sancionados-pelo-municipio" target="_blank">
             <div className="bg-[#002A66] text-white w-full sm:w-[550px] h-[300px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
             <IoDocumentText className="text-6xl text-white" />
             <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
@@ -49,7 +48,7 @@ return(
     
     
         {/* PLANO ANUAL DE CONTRATAÇÕES */}
-        <a href="#" target="_blank">
+        <a href="../licitacoes/plano-anual-de-contratacoes" target="_blank">
         <div className="bg-[#002A66] text-white w-full sm:w-[550px] h-[300px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
             <IoDocumentText className="text-6xl text-white" />
             <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
@@ -62,7 +61,7 @@ return(
         </a>
 
         {/* PROCESSOS DE LICITAÇÕES CONCLUÍDOS ATÉ 2018 */}
-        <a href="#" target="_blank">
+        <a href="../licitacoes/licitacoes-a-partir-de-2018" target="_blank">
         <div className="bg-[#002A66] text-white w-full sm:w-[550px] h-[300px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
             <IoDocumentText className="text-6xl text-white" />
             <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
@@ -76,7 +75,7 @@ return(
         </a>
 
         {/* AVISO DE LICITAÇÕES */}
-        <a href="#" target="_blank">
+        <a href="../licitacoes/aviso-de-licitacoes" target="_blank">
         <div className="bg-[#002A66] text-white w-full sm:w-[550px] h-[300px] mx-auto flex flex-col justify-center items-center shadow-lg hover:text-white group transition-all duration-300 ease-in-out relative">
             <IoDocumentText className="text-6xl text-white" />
             <h3 className="text-white text-lg font-bold leading-none mt-2 text-center">
