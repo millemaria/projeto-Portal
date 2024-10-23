@@ -9,7 +9,7 @@ export default function bens() {
           titulo={"PRESTAÇÃO DE CONTAS "}
           subtitulo={"Íncio » PRESTAÇÃO DE CONTAS "}
         >
-           <Prestacao />
+          <Prestacao />
         </ModelPage>
       </div>
     );
