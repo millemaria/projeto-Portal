@@ -7,7 +7,7 @@ export default function planejamento() {
       <div>
           <ModelPage
           titulo={"PLANEJAMENTO MUNICIPAL"}
-          subtitulo={"Íncio » PLANEJAMENTO MUNICIPAL"}
+          subtitulo={"Início » PLANEJAMENTO MUNICIPAL"}
         >
            <Planejamento />
         </ModelPage>

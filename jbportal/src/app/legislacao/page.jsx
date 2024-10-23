@@ -8,7 +8,7 @@ export default function legislacao() {
     <div>
         <ModelPage
         titulo={"LEGISLAÇÃO"}
-        subtitulo={"Íncio » LEGISLAÇÃO"}
+        subtitulo={"Início » LEGISLAÇÃO"}
       >
        <Legislacao /> 
       </ModelPage>

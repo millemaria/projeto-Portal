@@ -7,7 +7,7 @@ export default function recursosHumanos() {
     <div>
         <ModelPage
         titulo={"PAGAMENTO POR ORDEM CRONOLÓGICA"}
-        subtitulo={"Íncio » Pagamento por Ordem Cronológica"}
+        subtitulo={"Início » Pagamento por Ordem Cronológica"}
       >
       <Pagamento /> 
       </ModelPage>

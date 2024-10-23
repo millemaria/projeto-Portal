@@ -7,7 +7,7 @@ export default function Diariaspassagens() {
     <div>
         <ModelPage
         titulo={"RETENÇÕES DE IMPOSTOS"}
-        subtitulo={"Íncio » RETENÇÕES DE IMPOSTOS"}
+        subtitulo={"Início » RETENÇÕES DE IMPOSTOS"}
       >
       <Diarias /> 
       </ModelPage>

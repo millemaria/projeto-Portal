@@ -7,7 +7,7 @@ export default function acessibilidade() {
       <div>
           <ModelPage
           titulo={"ACESSIBILIDADE "}
-          subtitulo={"Íncio » ACESSIBILIDADE "}
+          subtitulo={"Início » ACESSIBILIDADE "}
         >
            <Acessibiliadade />
         </ModelPage>

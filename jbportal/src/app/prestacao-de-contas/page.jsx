@@ -7,7 +7,7 @@ export default function bens() {
       <div>
           <ModelPage
           titulo={"PRESTAÇÃO DE CONTAS "}
-          subtitulo={"Íncio » PRESTAÇÃO DE CONTAS "}
+          subtitulo={"Início » PRESTAÇÃO DE CONTAS "}
         >
           <Prestacao />
         </ModelPage>

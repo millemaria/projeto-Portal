@@ -9,7 +9,7 @@ export default function bens() {
       <div>
           <ModelPage
           titulo={"VEÍCULOS"}
-          subtitulo={"Íncio » VEÍCULOS"}
+          subtitulo={"Início » VEÍCULOS"}
         >
            <Veiculos />   
         </ModelPage>

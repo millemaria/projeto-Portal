@@ -8,7 +8,7 @@ export default function concursos() {
     <div>
         <ModelPage
         titulo={"CONCURSOS E SELEÇÕES"}
-        subtitulo={"Íncio » CONCURSOS E SELEÇÕES"}
+        subtitulo={"Início » CONCURSOS E SELEÇÕES"}
       >
         <Concursos />  
       </ModelPage>

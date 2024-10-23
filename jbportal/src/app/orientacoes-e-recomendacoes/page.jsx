@@ -7,7 +7,7 @@ export default function recursosHumanos() {
     <div>
         <ModelPage
         titulo={"ORIENTAÇÕES E RECOMENDAÇÕES"}
-        subtitulo={"Íncio » ORIENTAÇÕES E RECOMENDAÇÕES"}
+        subtitulo={"Início » ORIENTAÇÕES E RECOMENDAÇÕES"}
       >
       <Orientacoes /> 
       </ModelPage>
