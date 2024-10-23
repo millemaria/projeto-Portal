@@ -9,7 +9,7 @@ export default function bens() {
           titulo={"PROGRAMAS E ACÕES"}
           subtitulo={"Íncio » PROGRAMAS E ACÕES"}
         >
-           <Programas />
+          <Programas />
         </ModelPage>
       </div>
     );

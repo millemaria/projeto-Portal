@@ -1,6 +1,6 @@
 export default function Prestacao() {
   return (
-    <div>
+    <div className="p-4 flex items-center justify-center text-center">
     <iframe
     src="https://cloud.psalsis.com.br/PortalPrestacaoContas"
     width="100%"

@@ -51,3 +51,26 @@
 .montserrat-bold {
   font-family: 'Montserrat-Bold';
 }
+
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('/fontes/montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-style: normal;
+} 
+
+.montserrat-Semibold {
+  font-family: 'Montserrat-SemiBold';
+}
+
+
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('/fontes/montserrat/Roboto-Medium.ttf') format('truetype');
+  font-style: normal;
+} 
+
+.Roboto-Medium {
+  font-family: 'Roboto-Medium';
+}
